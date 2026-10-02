@@ -1,0 +1,3385 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What the 73-Shop Corpus Contains — Etsy Decision Pack</title>
+<meta name="description" content="Etsy decision pack: 73-shop corpus analysis, 14 direction research projects, 75 shop case files, trend research and live page-one recon.">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body id="top">
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">E</span>
+      <span class="brand-txt"><b>Etsy Decision Pack</b><span>Oct 2026 evidence base</span></span>
+    </a>
+    <nav class="topnav" id="topnav"><a href="../index.html" class="">Overview</a><a href="../corpus/index.html" class="on">The Corpus</a><a href="../directions/index.html" class="">Directions</a><a href="../shops/index.html" class="">Case Files</a><a href="../doctrine.html" class="">Alfie&#x27;s Doctrine</a><a href="../trends.html" class="">External Trends</a><a href="../recon.html" class="">Live Recon</a><a href="../debate.html" class="">Debate</a><a href="../method-plan.html" class="">The Brief</a></nav>
+    <div class="searchwrap"><input id="q" data-search type="search" placeholder="Search the whole pack…" autocomplete="off" spellcheck="false"><span class="kbd">/</span><div id="qresults"></div></div>
+    <button class="menu-btn" id="menu">Menu</button>
+  </div>
+</header>
+<div class="shell">
+  <div class="crumb"><a href="index.html">Overview</a><span style="opacity:.45"> / </span><a href="index.html">The Corpus</a></div>
+  <div class="layout">
+    <div class="side" id="side" data-collapsed="0"><button class="menu-btn" id="sideToggle" style="width:100%">Hide contents</button><div class="side-body" style="margin-top:12px"><ul class="lvl2"><a class="" href="#read-this-first-four-things-that-constrain-every-number-below">Read this first: four things that constrain every number below</a></ul><ul class="lvl2"><a class="" href="#the-corpus">The corpus</a></ul><ul class="lvl2"><a class="" href="#headline-the-one-number-that-decides-most-directions">Headline: the one number that decides most directions</a></ul><ul class="lvl2"><a class="" href="#section-1-lane-catalogue">Section 1 - Lane catalogue</a><a class="lvl3" href="#lane-detail">Lane detail</a></ul><ul class="lvl2"><a class="" href="#section-2-aesthetic-catalogue">Section 2 - Aesthetic catalogue</a><a class="lvl3" href="#aesthetic-x-lane-affinity-shops-running-each-aesthetic-by-their-dominant-lane">Aesthetic x lane affinity (shops running each aesthetic, by their dominant lane)</a></ul><ul class="lvl2"><a class="" href="#section-3-direction-catalogue-all-three-axes">Section 3 - Direction catalogue (all three axes)</a><a class="lvl3" href="#direction-cards-the-top-20-by-revenue">Direction cards - the top 20 by revenue</a></ul><ul class="lvl2"><a class="" href="#section-4-lane-x-shape-matrix">Section 4 - Lane x shape matrix</a></ul><ul class="lvl2"><a class="" href="#section-5-the-shape-strategies-on-their-own">Section 5 - The shape strategies on their own</a></ul><ul class="lvl2"><a class="" href="#section-6-risk-overlay">Section 6 - Risk overlay</a></ul><ul class="lvl2"><a class="" href="#section-7-shortlist-which-directions-deserve-a-full-research-project">Section 7 - Shortlist: which directions deserve a full research project</a><a class="lvl3" href="#tier-1-big-pool-proven-mechanic-low-risk-start-here">Tier 1 - big pool, proven mechanic, low risk. Start here.</a><a class="lvl3" href="#tier-2-real-but-with-a-condition-attached">Tier 2 - real but with a condition attached.</a><a class="lvl3" href="#tier-3-do-not-build-a-project-on-these">Tier 3 - do not build a project on these.</a></ul><ul class="lvl2"><a class="" href="#section-8-the-three-questions-the-corpus-answers">Section 8 - The three questions the corpus answers</a></ul><ul class="lvl2"><a class="" href="#section-9-method-and-what-this-data-cannot-tell-you">Section 9 - Method, and what this data cannot tell you</a></ul><ul class="lvl2"><a class="" href="#files">Files</a></ul></div></div>
+    <main class="content">
+      <h1>What the 73-Shop Corpus Contains</h1>
+      <p class="lede">22 qualified lanes, 14 aesthetics, 120 qualified directions — every one with the count that sizes it and the yield that decides it.</p>
+      <p><strong>Compiled 2 Oct 2026</strong> from <code>/home/ubuntu/etsy_phase2/*.csv</code> only. This is the input list for a full research project per direction.</p>
+<p>A <strong>direction</strong> here is three independent axes, which is how the data actually separates:</p>
+<ol>
+<li><strong>Product lane</strong> - what the buyer is buying for (nursery, faith, vintage, clipart, humour, ...).</li>
+<li><strong>Aesthetic</strong> - what it looks like (vintage oil painting, cottagecore, dark academia, Y2K, ...).</li>
+<li><strong>Shape strategy</strong> - how the shop converts (single-print volume, bundle-led, personalised, frame-tv, high-ticket physical, whole-shop mega bundle).</li>
+</ol>
+<p>A shop runs one of each. A <em>direction</em> is a combination that the corpus shows at scale, so the same word appearing in a shop name tells you nothing and these three numbers do.</p>
+<hr>
+<h2 id="read-this-first-four-things-that-constrain-every-number-below">Read this first: four things that constrain every number below<a class="anchor" href="#read-this-first-four-things-that-constrain-every-number-below">#</a></h2>
+<p><strong>1. The units column is mixed-basis and cannot be compared naively.</strong> The corpus is two pulls. The 56 Young Winners shops contribute <code>Est. Sales Last 6 Mo</code> - a real 6-month window. The 17 starred shops contribute <code>Est. Total Sales</code> - <em>lifetime</em>. So the total below is 6 months of one third of the corpus plus the entire lifetime of the rest. <strong>Units and revenue totals are valid for ranking directions against each other; they are not a market size.</strong></p>
+<p><strong>2. Revenue here is a proxy, not an Everbee field.</strong> Everbee's own revenue is native-currency (CAD/EUR/GBP/AUD/TRY/INR/USD) and 30-day only, so it cannot be summed across shops. The only per-listing revenue derivable from these CSVs is <code>units x listed price</code>, and that is what this document uses. It is a <strong>gross sticker-price proxy in USD, before Etsy fees, before the standing ~95%-on-sale / 35%-off reality, and before physical COGS.</strong> The folder's own fee model puts a non-US digital seller at roughly 11-30% of price depending on band. Treat every revenue figure as a <em>relative</em> number with a consistent haircut, never as a profit number.</p>
+<p><strong>3. 6,541 of 40,275 listings do not match any lane marker.</strong> They land in <code>unclassified</code> and are kept in the corpus rather than dropped, because dropping them would quietly bias every share. A direction that lives inside <code>unclassified</code> is a direction the keyword taxonomy has not learned yet, not a direction that does not exist.</p>
+<p><strong>4. "Direction" is counted at listing level, not shop level.</strong> A direction with 30 listings across 6 shops is a real cross-shop pattern. The qualification floors below (lane: 40 listings AND 3 shops; aesthetic: 60 listings; direction: 25 listings AND 2 shops) exist so a single shop's peculiarity does not get promoted to a market.</p>
+<hr>
+<h2 id="the-corpus">The corpus<a class="anchor" href="#the-corpus">#</a></h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shops in the corpus</td>
+<td><strong>73</strong> with listing data (of 75 in the master CSV)</td>
+</tr>
+<tr>
+<td>Listing rows analysed</td>
+<td><strong>40,275</strong></td>
+</tr>
+<tr>
+<td>Units</td>
+<td><strong>649,989</strong> (mixed basis - see caveat 1)</td>
+</tr>
+<tr>
+<td>Revenue proxy</td>
+<td><strong>$7,073,661</strong> USD gross sticker (see caveat 2)</td>
+</tr>
+<tr>
+<td>Qualified lanes</td>
+<td><strong>22</strong> (from 24 raw)</td>
+</tr>
+<tr>
+<td>Qualified aesthetics</td>
+<td><strong>14</strong> (from 18 raw)</td>
+</tr>
+<tr>
+<td>Qualified directions</td>
+<td><strong>120</strong> (from 465 raw)</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="headline-the-one-number-that-decides-most-directions">Headline: the one number that decides most directions<a class="anchor" href="#headline-the-one-number-that-decides-most-directions">#</a></h2>
+<p>Bundle-led listings yield more per listing than single-print listings in most lanes - often several times more. This is the folder's bundle-backward doctrine showing up as arithmetic rather than as an opinion. <strong>It is not universal, and the three exceptions are as informative as the rule.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Lane</th>
+<th style="text-align: right;">Single-print yield/listing</th>
+<th style="text-align: right;">Bundle yield/listing</th>
+<th style="text-align: right;">Multiple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>botanical / floral</td>
+<td style="text-align: right;">$59.68 (2,414 listings)</td>
+<td style="text-align: right;">$3,191.50 (279 listings)</td>
+<td style="text-align: right;"><strong>53.5x</strong></td>
+</tr>
+<tr>
+<td>vintage / retro / antique</td>
+<td style="text-align: right;">$147.37 (6,220 listings)</td>
+<td style="text-align: right;">$1,730.58 (420 listings)</td>
+<td style="text-align: right;"><strong>11.7x</strong></td>
+</tr>
+<tr>
+<td>faith / christian</td>
+<td style="text-align: right;">$37.51 (3,807 listings)</td>
+<td style="text-align: right;">$301.51 (141 listings)</td>
+<td style="text-align: right;"><strong>8.0x</strong></td>
+</tr>
+<tr>
+<td>abstract / geometric / bauhaus</td>
+<td style="text-align: right;">$82.21 (324 listings)</td>
+<td style="text-align: right;">$544.12 (88 listings)</td>
+<td style="text-align: right;"><strong>6.6x</strong></td>
+</tr>
+<tr>
+<td>nursery / baby room</td>
+<td style="text-align: right;">$91.28 (2,081 listings)</td>
+<td style="text-align: right;">$440.67 (685 listings)</td>
+<td style="text-align: right;"><strong>4.8x</strong></td>
+</tr>
+<tr>
+<td>y2k / it-girl / leopard / fashion</td>
+<td style="text-align: right;">$53.67 (201 listings)</td>
+<td style="text-align: right;">$233.97 (181 listings)</td>
+<td style="text-align: right;"><strong>4.4x</strong></td>
+</tr>
+<tr>
+<td>college / dorm / teen</td>
+<td style="text-align: right;">$94.12 (489 listings)</td>
+<td style="text-align: right;">$373.38 (233 listings)</td>
+<td style="text-align: right;"><strong>4.0x</strong></td>
+</tr>
+<tr>
+<td>coastal / beach / preppy</td>
+<td style="text-align: right;">$91.28 (1,259 listings)</td>
+<td style="text-align: right;">$362.08 (168 listings)</td>
+<td style="text-align: right;"><strong>4.0x</strong></td>
+</tr>
+<tr>
+<td>gallery wall / maximalist set</td>
+<td style="text-align: right;">$474.66 (146 listings)</td>
+<td style="text-align: right;">$1,787.23 (173 listings)</td>
+<td style="text-align: right;"><strong>3.8x</strong></td>
+</tr>
+<tr>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td style="text-align: right;">$43.12 (1,465 listings)</td>
+<td style="text-align: right;">$159.33 (221 listings)</td>
+<td style="text-align: right;"><strong>3.7x</strong></td>
+</tr>
+<tr>
+<td>sports / fandom / signed</td>
+<td style="text-align: right;">$23.57 (509 listings)</td>
+<td style="text-align: right;">$74.58 (120 listings)</td>
+<td style="text-align: right;"><strong>3.2x</strong></td>
+</tr>
+<tr>
+<td>humour / kitchen / bathroom</td>
+<td style="text-align: right;">$255.65 (1,454 listings)</td>
+<td style="text-align: right;">$423.08 (135 listings)</td>
+<td style="text-align: right;"><strong>1.7x</strong></td>
+</tr>
+<tr>
+<td>typography / quote / affirmation</td>
+<td style="text-align: right;">$58.44 (767 listings)</td>
+<td style="text-align: right;">$76.68 (70 listings)</td>
+<td style="text-align: right;"><strong>1.3x</strong></td>
+</tr>
+<tr>
+<td>minimalist / neutral / beige</td>
+<td style="text-align: right;">$17.30 (557 listings)</td>
+<td style="text-align: right;">$16.81 (32 listings)</td>
+<td style="text-align: right;"><strong>1.0x</strong></td>
+</tr>
+<tr>
+<td>landscape / nature vista</td>
+<td style="text-align: right;">$111.77 (1,090 listings)</td>
+<td style="text-align: right;">$103.27 (35 listings)</td>
+<td style="text-align: right;"><strong>0.9x</strong></td>
+</tr>
+<tr>
+<td>music / album / band</td>
+<td style="text-align: right;">$256.13 (39 listings)</td>
+<td style="text-align: right;">$91.02 (91 listings)</td>
+<td style="text-align: right;"><strong>0.4x</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>12 of 16 lanes</strong> clear a 1.5x bundle premium. That is the rule, and it is the single largest lever in the corpus: the same product sold as a 200-print bundle out-earns the same product sold as one print, at the same price point, in the same lane.</p>
+<p><strong>3 lanes sit flat</strong> (0.9-1.5x) and <strong>1 go the other way</strong>: music / album / band at 0.4x. Together with the flat lanes these are the informative cases:</p>
+<ul>
+<li><strong>The flat and inverted lanes are 4 of 16</strong> - the named cases follow.</li>
+<li><strong>Minimalist / neutral / beige (1.0x)</strong> - bundles do not help. The lane's problem is not the shape, it is that nobody is buying "minimalist" as a want; it is a description of the absence of a choice. Fixing the aesthetic, not the bundle, is the only lever here.</li>
+<li><strong>Landscape / nature vista (0.9x)</strong> - the lane has the <strong>lowest bundle share of any qualified lane (1.3% of units) and the second-highest dead tail (82.8%)</strong>. Bundles were never built here, so there is no premium to collect. This is an unbuilt mechanic, not a failed one - which is exactly the Lumiora situation.</li>
+<li><strong>Music / album / band (0.4x)</strong> - inverted for a structural reason: its "single" listings are the physical prints at a $106.8 median, so the single-print cell is already the high-ticket one. It is not a counterexample to the bundle mechanic, it is a lane where physical pricing, not bundling, sets the yield.</li>
+</ul>
+<p><strong>So: the bundle mechanic is the default and it is large, but the lanes that lack it are the ones with room to build it, and one lane (minimalist) is broken in a way no amount of bundling fixes.</strong></p>
+<hr>
+<h2 id="section-1-lane-catalogue">Section 1 - Lane catalogue<a class="anchor" href="#section-1-lane-catalogue">#</a></h2>
+<p>Every lane in the corpus that clears 40 listings and 3 shops. Sorted by revenue proxy. The <code>unclassified</code> bucket is excluded from the ranking and reported separately below - it is a gap in the keyword taxonomy, not a lane.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Lane</th>
+<th style="text-align: right;">Shops</th>
+<th style="text-align: right;">Listings</th>
+<th style="text-align: right;">Units</th>
+<th style="text-align: right;">Rev proxy</th>
+<th style="text-align: right;">Yield/listing</th>
+<th style="text-align: right;">Median</th>
+<th>P25-P75</th>
+<th style="text-align: right;">Bundle % of units</th>
+<th style="text-align: right;">Dead tail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td><strong>vintage / retro / antique</strong></td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">7,333</td>
+<td style="text-align: right;">222,441</td>
+<td style="text-align: right;">$1,708,855</td>
+<td style="text-align: right;">$233.04</td>
+<td style="text-align: right;">$5.99</td>
+<td>$4.99-$8.99</td>
+<td style="text-align: right;">25%</td>
+<td style="text-align: right;">71.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td><strong>botanical / floral</strong></td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">2,840</td>
+<td style="text-align: right;">29,746</td>
+<td style="text-align: right;">$1,041,944</td>
+<td style="text-align: right;">$366.88</td>
+<td style="text-align: right;">$5.98</td>
+<td>$4.99-$7</td>
+<td style="text-align: right;">18.1%</td>
+<td style="text-align: right;">70%</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td><strong>gallery wall / maximalist set</strong></td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">344</td>
+<td style="text-align: right;">43,991</td>
+<td style="text-align: right;">$845,021</td>
+<td style="text-align: right;">$2,456.46</td>
+<td style="text-align: right;">$12.5</td>
+<td>$6.99-$17.8</td>
+<td style="text-align: right;">92.4%</td>
+<td style="text-align: right;">47.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td><strong>nursery / baby room</strong></td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">2,969</td>
+<td style="text-align: right;">31,381</td>
+<td style="text-align: right;">$572,199</td>
+<td style="text-align: right;">$192.72</td>
+<td style="text-align: right;">$10.45</td>
+<td>$9.29-$12.61</td>
+<td style="text-align: right;">45.9%</td>
+<td style="text-align: right;">82.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td><strong>humour / kitchen / bathroom</strong></td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">1,600</td>
+<td style="text-align: right;">34,412</td>
+<td style="text-align: right;">$430,034</td>
+<td style="text-align: right;">$268.77</td>
+<td style="text-align: right;">$9</td>
+<td>$6.49-$12.99</td>
+<td style="text-align: right;">6.9%</td>
+<td style="text-align: right;">60.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td><strong>faith / christian</strong></td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">4,116</td>
+<td style="text-align: right;">25,336</td>
+<td style="text-align: right;">$216,824</td>
+<td style="text-align: right;">$52.68</td>
+<td style="text-align: right;">$4.99</td>
+<td>$3.99-$10</td>
+<td style="text-align: right;">8.1%</td>
+<td style="text-align: right;">79.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td><strong>college / dorm / teen</strong></td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">803</td>
+<td style="text-align: right;">11,891</td>
+<td style="text-align: right;">$192,943</td>
+<td style="text-align: right;">$240.28</td>
+<td style="text-align: right;">$9.29</td>
+<td>$7.96-$16</td>
+<td style="text-align: right;">46.2%</td>
+<td style="text-align: right;">47.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td><strong>frame-tv / screen art</strong></td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">4,882</td>
+<td style="text-align: right;">44,757</td>
+<td style="text-align: right;">$181,085</td>
+<td style="text-align: right;">$37.09</td>
+<td style="text-align: right;">$5.01</td>
+<td>$4.16-$5.5</td>
+<td style="text-align: right;">22.1%</td>
+<td style="text-align: right;">78.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td><strong>coastal / beach / preppy</strong></td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">1,511</td>
+<td style="text-align: right;">19,963</td>
+<td style="text-align: right;">$177,773</td>
+<td style="text-align: right;">$117.65</td>
+<td style="text-align: right;">$6.6</td>
+<td>$5.11-$11.47</td>
+<td style="text-align: right;">18.2%</td>
+<td style="text-align: right;">74.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td><strong>holiday / seasonal (xmas, halloween, easter)</strong></td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">1,889</td>
+<td style="text-align: right;">11,470</td>
+<td style="text-align: right;">$160,379</td>
+<td style="text-align: right;">$84.90</td>
+<td style="text-align: right;">$8</td>
+<td>$5.99-$12.07</td>
+<td style="text-align: right;">30.6%</td>
+<td style="text-align: right;">71%</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td><strong>landscape / nature vista</strong></td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">1,201</td>
+<td style="text-align: right;">26,125</td>
+<td style="text-align: right;">$137,281</td>
+<td style="text-align: right;">$114.31</td>
+<td style="text-align: right;">$5.98</td>
+<td>$5-$6.92</td>
+<td style="text-align: right;">1.3%</td>
+<td style="text-align: right;">82.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td><strong>abstract / geometric / bauhaus</strong></td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">422</td>
+<td style="text-align: right;">7,099</td>
+<td style="text-align: right;">$76,113</td>
+<td style="text-align: right;">$180.36</td>
+<td style="text-align: right;">$6.6</td>
+<td>$5.7-$8</td>
+<td style="text-align: right;">45.9%</td>
+<td style="text-align: right;">67.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td><strong>music / album / band</strong></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">455</td>
+<td style="text-align: right;">2,655</td>
+<td style="text-align: right;">$62,739</td>
+<td style="text-align: right;">$137.89</td>
+<td style="text-align: right;">$106.8</td>
+<td>$14.23-$106.8</td>
+<td style="text-align: right;">19%</td>
+<td style="text-align: right;">87%</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td><strong>typography / quote / affirmation</strong></td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">881</td>
+<td style="text-align: right;">5,464</td>
+<td style="text-align: right;">$54,511</td>
+<td style="text-align: right;">$61.87</td>
+<td style="text-align: right;">$8</td>
+<td>$7.96-$9.59</td>
+<td style="text-align: right;">7.1%</td>
+<td style="text-align: right;">69.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">15</td>
+<td><strong>y2k / it-girl / leopard / fashion</strong></td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">383</td>
+<td style="text-align: right;">5,060</td>
+<td style="text-align: right;">$53,136</td>
+<td style="text-align: right;">$138.74</td>
+<td style="text-align: right;">$9.27</td>
+<td>$6.28-$11.07</td>
+<td style="text-align: right;">76.3%</td>
+<td style="text-align: right;">62.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">16</td>
+<td><strong>pet / animal portrait</strong></td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">172</td>
+<td style="text-align: right;">1,211</td>
+<td style="text-align: right;">$41,595</td>
+<td style="text-align: right;">$241.83</td>
+<td style="text-align: right;">$9.5</td>
+<td>$6.49-$12.5</td>
+<td style="text-align: right;">36.6%</td>
+<td style="text-align: right;">80.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">17</td>
+<td><strong>travel / world map / city</strong></td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">158</td>
+<td style="text-align: right;">2,994</td>
+<td style="text-align: right;">$40,834</td>
+<td style="text-align: right;">$258.45</td>
+<td style="text-align: right;">$8</td>
+<td>$4.99-$10.45</td>
+<td style="text-align: right;">13.2%</td>
+<td style="text-align: right;">68.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">18</td>
+<td><strong>svg / apparel / streetwear</strong></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">357</td>
+<td style="text-align: right;">6,625</td>
+<td style="text-align: right;">$22,317</td>
+<td style="text-align: right;">$62.51</td>
+<td style="text-align: right;">$3.21</td>
+<td>$3.21-$3.34</td>
+<td style="text-align: right;">1.5%</td>
+<td style="text-align: right;">74.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">19</td>
+<td><strong>sports / fandom / signed</strong></td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">634</td>
+<td style="text-align: right;">2,355</td>
+<td style="text-align: right;">$21,020</td>
+<td style="text-align: right;">$33.16</td>
+<td style="text-align: right;">$7.16</td>
+<td>$6.84-$9.12</td>
+<td style="text-align: right;">29.6%</td>
+<td style="text-align: right;">52.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td><strong>animal / zoo (kids)</strong></td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">177</td>
+<td style="text-align: right;">2,134</td>
+<td style="text-align: right;">$14,207</td>
+<td style="text-align: right;">$80.27</td>
+<td style="text-align: right;">$6.6</td>
+<td>$5.98-$9.17</td>
+<td style="text-align: right;">2%</td>
+<td style="text-align: right;">78%</td>
+</tr>
+<tr>
+<td style="text-align: right;">21</td>
+<td><strong>minimalist / neutral / beige</strong></td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">592</td>
+<td style="text-align: right;">1,702</td>
+<td style="text-align: right;">$10,176</td>
+<td style="text-align: right;">$17.19</td>
+<td style="text-align: right;">$6.49</td>
+<td>$5.98-$6.6</td>
+<td style="text-align: right;">3.4%</td>
+<td style="text-align: right;">82.8%</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>The <code>unclassified</code> bucket: 68 shops, 6,541 listings, 110,934 units, $987,307 proxy, median $6.6.</strong> These are listings whose title and tags name a subject no lane keyword caught. They are kept in the corpus so no share is biased by dropping them. Its yield of $150.94 per listing sits between the strongest and weakest lanes, so it is a mixed bag rather than a single undiscovered direction - but it is the first place to look when extending the taxonomy.</p>
+<h3 id="lane-detail">Lane detail<a class="anchor" href="#lane-detail">#</a></h3>
+<h4 id="vintage-retro-antique">vintage / retro / antique<a class="anchor" href="#vintage-retro-antique">#</a></h4>
+<ul>
+<li><strong>Shops: 59</strong> - <code>AlbaLouPrints</code>, <code>DigitalStudioArtUA</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>ArtPrintsbyCoco</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code></li>
+<li><strong>7,333 listings, 222,441 units, $1,708,855 USD revenue proxy.</strong> Yield per listing <strong>$233.04</strong>; units per listing 30.33.</li>
+<li><strong>Price:</strong> median $5.99, IQR $4.99-$8.99. Dead tail 71.1% of listings with zero measured units; 28.9% have ever sold.</li>
+<li><strong>Bundle share:</strong> 5.9% of listings carry a set/bundle marker and take <strong>25% of units</strong>. Count-anchored titles (a number + a noun): 0.5% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 1.1%, $3-5 27.5%, $5-8 43.4%, $8-12 10.6%, $12-20 7.8%, $20-40 0.7%, $40+ 8.8%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 6,220 listings, yield $147.37, median $5.98, $916,612 proxy</li>
+<li>bundle-led (sets + mega): 420 listings, yield $1,730.58, median $12.07, $726,844 proxy</li>
+<li>whole-shop / mega bundle: 12 listings, yield $3,074.80, median $16.93, $36,898 proxy</li>
+<li>frame-tv single: 26 listings, yield $635.09, median $3.15, $16,512 proxy</li>
+<li>high-ticket / physical-tier: 638 listings, yield $16.78, median $44.89, $10,705 proxy</li>
+<li>personalised / custom: 17 listings, yield $75.52, median $11.26, $1,284 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="botanical-floral">botanical / floral<a class="anchor" href="#botanical-floral">#</a></h4>
+<ul>
+<li><strong>Shops: 52</strong> - <code>AlbaLouPrints</code>, <code>DigitalStudioArtUA</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>ArtPrintsbyCoco</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code></li>
+<li><strong>2,840 listings, 29,746 units, $1,041,944 USD revenue proxy.</strong> Yield per listing <strong>$366.88</strong>; units per listing 10.47.</li>
+<li><strong>Price:</strong> median $5.98, IQR $4.99-$7. Dead tail 70% of listings with zero measured units; 30% have ever sold.</li>
+<li><strong>Bundle share:</strong> 9.8% of listings carry a set/bundle marker and take <strong>18.1% of units</strong>. Count-anchored titles (a number + a noun): 0.7% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.4%, $3-5 25.7%, $5-8 52.6%, $8-12 10.9%, $12-20 7.4%, $20-40 1.5%, $40+ 1.5%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>bundle-led (sets + mega): 279 listings, yield $3,191.50, median $12, $890,429 proxy</li>
+<li>single-print volume: 2,414 listings, yield $59.68, median $5.98, $144,064 proxy</li>
+<li>high-ticket / physical-tier: 41 listings, yield $97.66, median $56.09, $4,004 proxy</li>
+<li>frame-tv single: 81 listings, yield $21.59, median $5, $1,749 proxy</li>
+<li>personalised / custom: 25 listings, yield $67.89, median $13.31, $1,697 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="gallery-wall-maximalist-set">gallery wall / maximalist set<a class="anchor" href="#gallery-wall-maximalist-set">#</a></h4>
+<ul>
+<li><strong>Shops: 32</strong> - <code>AlbaLouPrints</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>NorthViviPrints</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code></li>
+<li><strong>344 listings, 43,991 units, $845,021 USD revenue proxy.</strong> Yield per listing <strong>$2,456.46</strong>; units per listing 127.88.</li>
+<li><strong>Price:</strong> median $12.5, IQR $6.99-$17.8. Dead tail 47.4% of listings with zero measured units; 52.6% have ever sold.</li>
+<li><strong>Bundle share:</strong> 57.3% of listings carry a set/bundle marker and take <strong>92.4% of units</strong>. Count-anchored titles (a number + a noun): 6.7% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 1.2%, $3-5 12.8%, $5-8 12.5%, $8-12 18.9%, $12-20 37.5%, $20-40 17.2%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>whole-shop / mega bundle: 24 listings, yield $19,438.73, median $17.8, $466,530 proxy</li>
+<li>bundle-led (sets + mega): 173 listings, yield $1,787.23, median $16, $309,190 proxy</li>
+<li>single-print volume: 146 listings, yield $474.66, median $6.82, $69,301 proxy</li>
+<li>personalised / custom: 1 listings, yield $0.00, median $9.59, $0 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="nursery-baby-room">nursery / baby room<a class="anchor" href="#nursery-baby-room">#</a></h4>
+<ul>
+<li><strong>Shops: 49</strong> - <code>AlbaLouPrints</code>, <code>NorthPrints</code>, <code>FadedMusePrints</code>, <code>NorthViviPrints</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>ArchiveArtCo</code></li>
+<li><strong>2,969 listings, 31,381 units, $572,199 USD revenue proxy.</strong> Yield per listing <strong>$192.72</strong>; units per listing 10.57.</li>
+<li><strong>Price:</strong> median $10.45, IQR $9.29-$12.61. Dead tail 82.8% of listings with zero measured units; 17.2% have ever sold.</li>
+<li><strong>Bundle share:</strong> 23.1% of listings carry a set/bundle marker and take <strong>45.9% of units</strong>. Count-anchored titles (a number + a noun): 1.9% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.0%, $3-5 2.0%, $5-8 21.3%, $8-12 37.9%, $12-20 33.0%, $20-40 5.5%, $40+ 0.2%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>bundle-led (sets + mega): 685 listings, yield $440.67, median $14.5, $301,857 proxy</li>
+<li>single-print volume: 2,081 listings, yield $91.28, median $10.45, $189,949 proxy</li>
+<li>personalised / custom: 201 listings, yield $314.71, median $13.31, $63,256 proxy</li>
+<li>whole-shop / mega bundle: 1 listings, yield $17,098.49, median $37.09, $17,098 proxy</li>
+<li>frame-tv single: 1 listings, yield $38.50, median $3.5, $38 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="humour-kitchen-bathroom">humour / kitchen / bathroom<a class="anchor" href="#humour-kitchen-bathroom">#</a></h4>
+<ul>
+<li><strong>Shops: 47</strong> - <code>AlbaLouPrints</code>, <code>DigitalStudioArtUA</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>NorthViviPrints</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code></li>
+<li><strong>1,600 listings, 34,412 units, $430,034 USD revenue proxy.</strong> Yield per listing <strong>$268.77</strong>; units per listing 21.51.</li>
+<li><strong>Price:</strong> median $9, IQR $6.49-$12.99. Dead tail 60.1% of listings with zero measured units; 39.9% have ever sold.</li>
+<li><strong>Bundle share:</strong> 8.4% of listings carry a set/bundle marker and take <strong>6.9% of units</strong>. Count-anchored titles (a number + a noun): 0.8% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 1.0%, $3-5 9.0%, $5-8 34.8%, $8-12 27.9%, $12-20 23.0%, $20-40 4.2%, $40+ 0.1%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 1,454 listings, yield $255.65, median $8, $371,710 proxy</li>
+<li>bundle-led (sets + mega): 135 listings, yield $423.08, median $11.78, $57,116 proxy</li>
+<li>personalised / custom: 6 listings, yield $151.46, median $24.99, $909 proxy</li>
+<li>high-ticket / physical-tier: 1 listings, yield $299.40, median $59.88, $299 proxy</li>
+<li>frame-tv single: 4 listings, yield $0.00, median $5, $0 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="faith-christian">faith / christian<a class="anchor" href="#faith-christian">#</a></h4>
+<ul>
+<li><strong>Shops: 32</strong> - <code>AlbaLouPrints</code>, <code>DigitalStudioArtUA</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>ThatsMyTypePrints</code>, <code>LoveDictionary</code>, <code>SaintlyCreationsArt</code>, <code>PixelsToFramesCo</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>ApexVisualsStudio</code>, <code>ArttHouses</code>, <code>PrintandGatherStudio</code>, <code>JCSDesignWorks</code></li>
+<li><strong>4,116 listings, 25,336 units, $216,824 USD revenue proxy.</strong> Yield per listing <strong>$52.68</strong>; units per listing 6.16.</li>
+<li><strong>Price:</strong> median $4.99, IQR $3.99-$10. Dead tail 79.5% of listings with zero measured units; 20.5% have ever sold.</li>
+<li><strong>Bundle share:</strong> 3.4% of listings carry a set/bundle marker and take <strong>8.1% of units</strong>. Count-anchored titles (a number + a noun): 3.8% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.2%, $3-5 49.8%, $5-8 9.3%, $8-12 19.4%, $12-20 16.8%, $20-40 2.6%, $40+ 1.8%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 3,807 listings, yield $37.51, median $3.99, $142,811 proxy</li>
+<li>bundle-led (sets + mega): 141 listings, yield $301.51, median $10.76, $42,512 proxy</li>
+<li>high-ticket / physical-tier: 74 listings, yield $289.74, median $47.52, $21,441 proxy</li>
+<li>frame-tv single: 84 listings, yield $97.44, median $6.37, $8,185 proxy</li>
+<li>personalised / custom: 10 listings, yield $187.50, median $12, $1,875 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="college-dorm-teen">college / dorm / teen<a class="anchor" href="#college-dorm-teen">#</a></h4>
+<ul>
+<li><strong>Shops: 30</strong> - <code>AlbaLouPrints</code>, <code>AprilLaneArt</code>, <code>NorthViviPrints</code>, <code>ThatsMyTypePrints</code>, <code>LoveDictionary</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>PrintedPlacesShop</code>, <code>ArttHouses</code>, <code>CultHausStudio</code></li>
+<li><strong>803 listings, 11,891 units, $192,943 USD revenue proxy.</strong> Yield per listing <strong>$240.28</strong>; units per listing 14.81.</li>
+<li><strong>Price:</strong> median $9.29, IQR $7.96-$16. Dead tail 47.3% of listings with zero measured units; 52.7% have ever sold.</li>
+<li><strong>Bundle share:</strong> 29.3% of listings carry a set/bundle marker and take <strong>46.2% of units</strong>. Count-anchored titles (a number + a noun): 2.4% of the lane.</li>
+<li><strong>Price bands:</strong> $3-5 3.5%, $5-8 27.5%, $8-12 34.4%, $12-20 16.7%, $20-40 17.8%, $40+ 0.1%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>bundle-led (sets + mega): 233 listings, yield $373.38, median $21.2, $86,998 proxy</li>
+<li>single-print volume: 489 listings, yield $94.12, median $8, $46,022 proxy</li>
+<li>personalised / custom: 79 listings, yield $569.33, median $14.64, $44,977 proxy</li>
+<li>whole-shop / mega bundle: 2 listings, yield $7,472.73, median $18.34, $14,945 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="frame-tv-screen-art">frame-tv / screen art<a class="anchor" href="#frame-tv-screen-art">#</a></h4>
+<ul>
+<li><strong>Shops: 31</strong> - <code>DigitalStudioArtUA</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>ArtPrintsbyCoco</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>PrintandGatherStudio</code>, <code>ColorsAtelierStudio</code></li>
+<li><strong>4,882 listings, 44,757 units, $181,085 USD revenue proxy.</strong> Yield per listing <strong>$37.09</strong>; units per listing 9.17.</li>
+<li><strong>Price:</strong> median $5.01, IQR $4.16-$5.5. Dead tail 78.7% of listings with zero measured units; 21.3% have ever sold.</li>
+<li><strong>Bundle share:</strong> 4.5% of listings carry a set/bundle marker and take <strong>22.1% of units</strong>. Count-anchored titles (a number + a noun): 0.1% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 2.9%, $3-5 32.7%, $5-8 59.0%, $8-12 3.4%, $12-20 1.7%, $20-40 0.2%, $40+ 0.1%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>frame-tv single: 4,660 listings, yield $26.02, median $5.01, $121,239 proxy</li>
+<li>bundle-led (sets + mega): 207 listings, yield $259.77, median $10.07, $53,773 proxy</li>
+<li>whole-shop / mega bundle: 11 listings, yield $538.87, median $18.37, $5,928 proxy</li>
+<li>personalised / custom: 4 listings, yield $36.27, median $4.35, $145 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="coastal-beach-preppy">coastal / beach / preppy<a class="anchor" href="#coastal-beach-preppy">#</a></h4>
+<ul>
+<li><strong>Shops: 52</strong> - <code>AlbaLouPrints</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>ArtPrintsbyCoco</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code></li>
+<li><strong>1,511 listings, 19,963 units, $177,773 USD revenue proxy.</strong> Yield per listing <strong>$117.65</strong>; units per listing 13.21.</li>
+<li><strong>Price:</strong> median $6.6, IQR $5.11-$11.47. Dead tail 74.1% of listings with zero measured units; 25.9% have ever sold.</li>
+<li><strong>Bundle share:</strong> 11.1% of listings carry a set/bundle marker and take <strong>18.2% of units</strong>. Count-anchored titles (a number + a noun): 1.4% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.9%, $3-5 21.6%, $5-8 39.0%, $8-12 13.8%, $12-20 21.2%, $20-40 3.2%, $40+ 0.3%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 1,259 listings, yield $91.28, median $6.49, $114,927 proxy</li>
+<li>bundle-led (sets + mega): 168 listings, yield $362.08, median $14.91, $60,830 proxy</li>
+<li>frame-tv single: 76 listings, yield $18.31, median $5, $1,392 proxy</li>
+<li>personalised / custom: 5 listings, yield $91.18, median $13.31, $456 proxy</li>
+<li>high-ticket / physical-tier: 3 listings, yield $56.09, median $80, $168 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="holiday-seasonal-xmas-halloween-easter">holiday / seasonal (xmas, halloween, easter)<a class="anchor" href="#holiday-seasonal-xmas-halloween-easter">#</a></h4>
+<ul>
+<li><strong>Shops: 48</strong> - <code>AlbaLouPrints</code>, <code>DigitalStudioArtUA</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>ArtPrintsbyCoco</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ThePlumAtelier</code>, <code>ChristArtCrafts</code></li>
+<li><strong>1,889 listings, 11,470 units, $160,379 USD revenue proxy.</strong> Yield per listing <strong>$84.90</strong>; units per listing 6.07.</li>
+<li><strong>Price:</strong> median $8, IQR $5.99-$12.07. Dead tail 71% of listings with zero measured units; 29% have ever sold.</li>
+<li><strong>Bundle share:</strong> 12.6% of listings carry a set/bundle marker and take <strong>30.6% of units</strong>. Count-anchored titles (a number + a noun): 2.2% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.1%, $3-5 15.1%, $5-8 25.1%, $8-12 28.0%, $12-20 23.2%, $20-40 3.6%, $40+ 4.9%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 1,465 listings, yield $43.12, median $8, $63,166 proxy</li>
+<li>whole-shop / mega bundle: 17 listings, yield $2,548.64, median $27.52, $43,327 proxy</li>
+<li>bundle-led (sets + mega): 221 listings, yield $159.33, median $16, $35,211 proxy</li>
+<li>high-ticket / physical-tier: 87 listings, yield $208.97, median $44.94, $18,180 proxy</li>
+<li>frame-tv single: 93 listings, yield $2.76, median $4.16, $256 proxy</li>
+<li>personalised / custom: 6 listings, yield $39.77, median $13.91, $239 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="landscape-nature-vista">landscape / nature vista<a class="anchor" href="#landscape-nature-vista">#</a></h4>
+<ul>
+<li><strong>Shops: 43</strong> - <code>AlbaLouPrints</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>ArtPrintsbyCoco</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code></li>
+<li><strong>1,201 listings, 26,125 units, $137,281 USD revenue proxy.</strong> Yield per listing <strong>$114.31</strong>; units per listing 21.75.</li>
+<li><strong>Price:</strong> median $5.98, IQR $5-$6.92. Dead tail 82.8% of listings with zero measured units; 17.2% have ever sold.</li>
+<li><strong>Bundle share:</strong> 2.9% of listings carry a set/bundle marker and take <strong>1.3% of units</strong>. Count-anchored titles (a number + a noun): 0.9% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.8%, $3-5 22.8%, $5-8 61.9%, $8-12 6.7%, $12-20 5.6%, $20-40 0.1%, $40+ 2.1%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 1,090 listings, yield $111.77, median $5.98, $121,828 proxy</li>
+<li>frame-tv single: 51 listings, yield $185.04, median $5, $9,437 proxy</li>
+<li>bundle-led (sets + mega): 35 listings, yield $103.27, median $9, $3,615 proxy</li>
+<li>high-ticket / physical-tier: 25 listings, yield $96.06, median $45.81, $2,402 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="abstract-geometric-bauhaus">abstract / geometric / bauhaus<a class="anchor" href="#abstract-geometric-bauhaus">#</a></h4>
+<ul>
+<li><strong>Shops: 31</strong> - <code>AlbaLouPrints</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>NorthViviPrints</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>ArchiveArtCo</code></li>
+<li><strong>422 listings, 7,099 units, $76,113 USD revenue proxy.</strong> Yield per listing <strong>$180.36</strong>; units per listing 16.82.</li>
+<li><strong>Price:</strong> median $6.6, IQR $5.7-$8. Dead tail 67.1% of listings with zero measured units; 32.9% have ever sold.</li>
+<li><strong>Bundle share:</strong> 21.1% of listings carry a set/bundle marker and take <strong>45.9% of units</strong>. Count-anchored titles (a number + a noun): 4% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.5%, $3-5 17.1%, $5-8 56.6%, $8-12 13.5%, $12-20 5.5%, $20-40 6.9%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>bundle-led (sets + mega): 88 listings, yield $544.12, median $12, $47,883 proxy</li>
+<li>single-print volume: 324 listings, yield $82.21, median $6, $26,637 proxy</li>
+<li>whole-shop / mega bundle: 1 listings, yield $1,460.55, median $16.05, $1,461 proxy</li>
+<li>frame-tv single: 9 listings, yield $14.84, median $5.98, $134 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="music-album-band">music / album / band<a class="anchor" href="#music-album-band">#</a></h4>
+<ul>
+<li><strong>Shops: 11</strong> - <code>FadedMusePrints</code>, <code>TheNuveArtDigitals</code>, <code>CoolArtByJacob</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>Thelittleprintshopx</code>, <code>RadialPosters</code>, <code>MusePrintsDownload</code>, <code>PrintManifestoStudio</code>, <code>BloomJetsetPrints</code>, <code>NotedProgress</code></li>
+<li><strong>455 listings, 2,655 units, $62,739 USD revenue proxy.</strong> Yield per listing <strong>$137.89</strong>; units per listing 5.84.</li>
+<li><strong>Price:</strong> median $106.8, IQR $14.23-$106.8. Dead tail 87% of listings with zero measured units; 13% have ever sold.</li>
+<li><strong>Bundle share:</strong> 20% of listings carry a set/bundle marker and take <strong>19% of units</strong>. Count-anchored titles (a number + a noun): 18% of the lane.</li>
+<li><strong>Price bands:</strong> $3-5 1.5%, $5-8 6.2%, $8-12 0.9%, $12-20 19.3%, $40+ 72.1%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>high-ticket / physical-tier: 321 listings, yield $82.18, median $106.8, $26,380 proxy</li>
+<li>personalised / custom: 4 listings, yield $4,521.99, median $60.52, $18,088 proxy</li>
+<li>single-print volume: 39 listings, yield $256.13, median $6.6, $9,989 proxy</li>
+<li>bundle-led (sets + mega): 91 listings, yield $91.02, median $14.23, $8,283 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="typography-quote-affirmation">typography / quote / affirmation<a class="anchor" href="#typography-quote-affirmation">#</a></h4>
+<ul>
+<li><strong>Shops: 31</strong> - <code>AlbaLouPrints</code>, <code>AprilLaneArt</code>, <code>NorthViviPrints</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>ThePlumAtelier</code>, <code>ChristArtCrafts</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>ArttHouses</code>, <code>Thelittleprintshopx</code>, <code>PixeluxArt</code>, <code>thelilysatelier</code></li>
+<li><strong>881 listings, 5,464 units, $54,511 USD revenue proxy.</strong> Yield per listing <strong>$61.87</strong>; units per listing 6.2.</li>
+<li><strong>Price:</strong> median $8, IQR $7.96-$9.59. Dead tail 69.6% of listings with zero measured units; 30.4% have ever sold.</li>
+<li><strong>Bundle share:</strong> 7.9% of listings carry a set/bundle marker and take <strong>7.1% of units</strong>. Count-anchored titles (a number + a noun): 0.9% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.1%, $3-5 1.9%, $5-8 37.6%, $8-12 52.0%, $12-20 8.3%, $20-40 0.1%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 767 listings, yield $58.44, median $8, $44,826 proxy</li>
+<li>bundle-led (sets + mega): 70 listings, yield $76.68, median $12.49, $5,368 proxy</li>
+<li>personalised / custom: 44 listings, yield $98.12, median $9.98, $4,317 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="y2k-it-girl-leopard-fashion">y2k / it-girl / leopard / fashion<a class="anchor" href="#y2k-it-girl-leopard-fashion">#</a></h4>
+<ul>
+<li><strong>Shops: 23</strong> - <code>AlbaLouPrints</code>, <code>FadedMusePrints</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>CoolArtByJacob</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>ArttHouses</code>, <code>CultHausStudio</code>, <code>PixeluxArt</code>, <code>thelilysatelier</code>, <code>JollyJoyPrintsStudio</code>, <code>GalleryPrintsbySK</code></li>
+<li><strong>383 listings, 5,060 units, $53,136 USD revenue proxy.</strong> Yield per listing <strong>$138.74</strong>; units per listing 13.21.</li>
+<li><strong>Price:</strong> median $9.27, IQR $6.28-$11.07. Dead tail 62.9% of listings with zero measured units; 37.1% have ever sold.</li>
+<li><strong>Bundle share:</strong> 47.3% of listings carry a set/bundle marker and take <strong>76.3% of units</strong>. Count-anchored titles (a number + a noun): 2.3% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 1.3%, $3-5 6.5%, $5-8 34.2%, $8-12 36.3%, $12-20 21.4%, $20-40 0.3%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>bundle-led (sets + mega): 181 listings, yield $233.97, median $11.07, $42,348 proxy</li>
+<li>single-print volume: 201 listings, yield $53.67, median $6.77, $10,787 proxy</li>
+<li>personalised / custom: 1 listings, yield $0.00, median $9.29, $0 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="pet-animal-portrait">pet / animal portrait<a class="anchor" href="#pet-animal-portrait">#</a></h4>
+<ul>
+<li><strong>Shops: 22</strong> - <code>AlbaLouPrints</code>, <code>FadedMusePrints</code>, <code>NorthViviPrints</code>, <code>TheNuveArtDigitals</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>ArchiveArtCo</code>, <code>ArttHouses</code>, <code>ColorsAtelierStudio</code>, <code>CultHausStudio</code></li>
+<li><strong>172 listings, 1,211 units, $41,595 USD revenue proxy.</strong> Yield per listing <strong>$241.83</strong>; units per listing 7.04.</li>
+<li><strong>Price:</strong> median $9.5, IQR $6.49-$12.5. Dead tail 80.2% of listings with zero measured units; 19.8% have ever sold.</li>
+<li><strong>Bundle share:</strong> 5.8% of listings carry a set/bundle marker and take <strong>36.6% of units</strong>. Count-anchored titles (a number + a noun): 0% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.6%, $3-5 13.4%, $5-8 24.4%, $8-12 32.0%, $12-20 14.5%, $20-40 9.3%, $40+ 5.8%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>bundle-led (sets + mega): 10 listings, yield $2,684.16, median $45.56, $26,842 proxy</li>
+<li>personalised / custom: 53 listings, yield $236.10, median $14, $12,513 proxy</li>
+<li>high-ticket / physical-tier: 1 listings, yield $1,268.46, median $43.74, $1,268 proxy</li>
+<li>single-print volume: 108 listings, yield $8.99, median $6.49, $971 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="travel-world-map-city">travel / world map / city<a class="anchor" href="#travel-world-map-city">#</a></h4>
+<ul>
+<li><strong>Shops: 26</strong> - <code>AlbaLouPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>PrintedPlacesShop</code>, <code>PrintandGatherStudio</code></li>
+<li><strong>158 listings, 2,994 units, $40,834 USD revenue proxy.</strong> Yield per listing <strong>$258.45</strong>; units per listing 18.95.</li>
+<li><strong>Price:</strong> median $8, IQR $4.99-$10.45. Dead tail 68.4% of listings with zero measured units; 31.6% have ever sold.</li>
+<li><strong>Bundle share:</strong> 4.4% of listings carry a set/bundle marker and take <strong>13.2% of units</strong>. Count-anchored titles (a number + a noun): 1.9% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 1.3%, $3-5 25.9%, $5-8 15.8%, $8-12 46.8%, $12-20 5.7%, $20-40 2.5%, $40+ 1.9%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 131 listings, yield $153.27, median $7.19, $20,078 proxy</li>
+<li>high-ticket / physical-tier: 2 listings, yield $5,365.88, median $246.38, $10,732 proxy</li>
+<li>bundle-led (sets + mega): 6 listings, yield $1,371.41, median $22.48, $8,228 proxy</li>
+<li>whole-shop / mega bundle: 1 listings, yield $1,609.92, median $20.64, $1,610 proxy</li>
+<li>personalised / custom: 17 listings, yield $10.96, median $9.98, $186 proxy</li>
+<li>frame-tv single: 1 listings, yield $0.00, median $6, $0 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="svg-apparel-streetwear">svg / apparel / streetwear<a class="anchor" href="#svg-apparel-streetwear">#</a></h4>
+<ul>
+<li><strong>Shops: 3</strong> - <code>DigitalStudioArtUA</code>, <code>JollyJoyPrintsStudio</code>, <code>HomefyStudio</code></li>
+<li><strong>357 listings, 6,625 units, $22,317 USD revenue proxy.</strong> Yield per listing <strong>$62.51</strong>; units per listing 18.56.</li>
+<li><strong>Price:</strong> median $3.21, IQR $3.21-$3.34. Dead tail 74.8% of listings with zero measured units; 25.2% have ever sold.</li>
+<li><strong>Bundle share:</strong> 1.4% of listings carry a set/bundle marker and take <strong>1.5% of units</strong>. Count-anchored titles (a number + a noun): 2.5% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.6%, $3-5 99.4%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 352 listings, yield $62.22, median $3.21, $21,901 proxy</li>
+<li>bundle-led (sets + mega): 5 listings, yield $83.20, median $3.92, $416 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="sports-fandom-signed">sports / fandom / signed<a class="anchor" href="#sports-fandom-signed">#</a></h4>
+<ul>
+<li><strong>Shops: 16</strong> - <code>AlbaLouPrints</code>, <code>LuxFrameStudio</code>, <code>ThePlumAtelier</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>PrintandGatherStudio</code>, <code>ColorsAtelierStudio</code>, <code>LinoaVintage</code>, <code>EliteSportsStudio</code>, <code>thelilysatelier</code>, <code>MusePrintsDownload</code>, <code>LumioraPrints</code>, <code>FunHueStudio</code>, <code>UnspirationalLiving</code></li>
+<li><strong>634 listings, 2,355 units, $21,020 USD revenue proxy.</strong> Yield per listing <strong>$33.16</strong>; units per listing 3.71.</li>
+<li><strong>Price:</strong> median $7.16, IQR $6.84-$9.12. Dead tail 52.7% of listings with zero measured units; 47.3% have ever sold.</li>
+<li><strong>Bundle share:</strong> 18.9% of listings carry a set/bundle marker and take <strong>29.6% of units</strong>. Count-anchored titles (a number + a noun): 3.3% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 0.3%, $3-5 0.8%, $5-8 60.1%, $8-12 27.6%, $12-20 11.0%, $20-40 0.2%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 509 listings, yield $23.57, median $6.88, $11,995 proxy</li>
+<li>bundle-led (sets + mega): 120 listings, yield $74.58, median $12.11, $8,949 proxy</li>
+<li>personalised / custom: 3 listings, yield $25.46, median $12.54, $76 proxy</li>
+<li>frame-tv single: 2 listings, yield $0.00, median $5.01, $0 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="animal-zoo-kids">animal / zoo (kids)<a class="anchor" href="#animal-zoo-kids">#</a></h4>
+<ul>
+<li><strong>Shops: 29</strong> - <code>AlbaLouPrints</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>ArtPrintsbyCoco</code>, <code>NorthViviPrints</code>, <code>LuxFrameStudio</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>PixelsToFramesCo</code>, <code>ThePlumAtelier</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code></li>
+<li><strong>177 listings, 2,134 units, $14,207 USD revenue proxy.</strong> Yield per listing <strong>$80.27</strong>; units per listing 12.06.</li>
+<li><strong>Price:</strong> median $6.6, IQR $5.98-$9.17. Dead tail 78% of listings with zero measured units; 22% have ever sold.</li>
+<li><strong>Bundle share:</strong> 6.2% of listings carry a set/bundle marker and take <strong>2% of units</strong>. Count-anchored titles (a number + a noun): 0% of the lane.</li>
+<li><strong>Price bands:</strong> $3-5 13.6%, $5-8 55.4%, $8-12 22.0%, $12-20 6.2%, $20-40 2.3%, $40+ 0.6%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 163 listings, yield $83.05, median $6.6, $13,538 proxy</li>
+<li>bundle-led (sets + mega): 11 listings, yield $48.60, median $15.68, $535 proxy</li>
+<li>high-ticket / physical-tier: 1 listings, yield $134.67, median $44.89, $135 proxy</li>
+<li>personalised / custom: 1 listings, yield $0.00, median $20.89, $0 proxy</li>
+<li>frame-tv single: 1 listings, yield $0.00, median $8.96, $0 proxy</li>
+</ul>
+</li>
+</ul>
+<h4 id="minimalist-neutral-beige">minimalist / neutral / beige<a class="anchor" href="#minimalist-neutral-beige">#</a></h4>
+<ul>
+<li><strong>Shops: 39</strong> - <code>AlbaLouPrints</code>, <code>NorthPrints</code>, <code>AprilLaneArt</code>, <code>FadedMusePrints</code>, <code>NorthViviPrints</code>, <code>ThatsMyTypePrints</code>, <code>TheNuveArtDigitals</code>, <code>LoveDictionary</code>, <code>CoolArtByJacob</code>, <code>ChristArtCrafts</code>, <code>PureVintagePrints</code>, <code>VintageGlowPrints</code>, <code>ApexVisualsStudio</code>, <code>ArchiveArtCo</code></li>
+<li><strong>592 listings, 1,702 units, $10,176 USD revenue proxy.</strong> Yield per listing <strong>$17.19</strong>; units per listing 2.88.</li>
+<li><strong>Price:</strong> median $6.49, IQR $5.98-$6.6. Dead tail 82.8% of listings with zero measured units; 17.2% have ever sold.</li>
+<li><strong>Bundle share:</strong> 5.4% of listings carry a set/bundle marker and take <strong>3.4% of units</strong>. Count-anchored titles (a number + a noun): 0.8% of the lane.</li>
+<li><strong>Price bands:</strong> $0-3 1.2%, $3-5 15.2%, $5-8 70.1%, $8-12 10.0%, $12-20 3.0%, $20-40 0.5%</li>
+<li><strong>Shape split inside this lane:</strong><ul>
+<li>single-print volume: 557 listings, yield $17.30, median $6.49, $9,638 proxy</li>
+<li>bundle-led (sets + mega): 32 listings, yield $16.81, median $8.5, $538 proxy</li>
+<li>frame-tv single: 3 listings, yield $0.00, median $5, $0 proxy</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="section-2-aesthetic-catalogue">Section 2 - Aesthetic catalogue<a class="anchor" href="#section-2-aesthetic-catalogue">#</a></h2>
+<p>Visual style, counted independently of lane. The same product can be nursery lane and vintage-oil aesthetic; that is a real combination, not a contradiction.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Aesthetic</th>
+<th style="text-align: right;">Shops</th>
+<th style="text-align: right;">Listings</th>
+<th style="text-align: right;">Units</th>
+<th style="text-align: right;">Rev proxy</th>
+<th style="text-align: right;">Yield/listing</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">Bundle % of units</th>
+<th style="text-align: right;">Dead tail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td><strong>no clear aesthetic</strong></td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">22,799</td>
+<td style="text-align: right;">335,657</td>
+<td style="text-align: right;">$3,305,123</td>
+<td style="text-align: right;">$144.97</td>
+<td style="text-align: right;">$6.62</td>
+<td style="text-align: right;">25.6%</td>
+<td style="text-align: right;">71.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td><strong>botanical / floral study</strong></td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">2,807</td>
+<td style="text-align: right;">30,125</td>
+<td style="text-align: right;">$1,021,394</td>
+<td style="text-align: right;">$363.87</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">18.8%</td>
+<td style="text-align: right;">72.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td><strong>cottagecore / farmhouse / rustic</strong></td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">5,849</td>
+<td style="text-align: right;">102,495</td>
+<td style="text-align: right;">$885,364</td>
+<td style="text-align: right;">$151.37</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">28.6%</td>
+<td style="text-align: right;">77.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td><strong>bold colour / maximalist / eclectic</strong></td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">1,208</td>
+<td style="text-align: right;">40,662</td>
+<td style="text-align: right;">$807,612</td>
+<td style="text-align: right;">$668.55</td>
+<td style="text-align: right;">$10.45</td>
+<td style="text-align: right;">68.6%</td>
+<td style="text-align: right;">67.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td><strong>vintage / antique oil painting</strong></td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">789</td>
+<td style="text-align: right;">65,783</td>
+<td style="text-align: right;">$413,126</td>
+<td style="text-align: right;">$523.61</td>
+<td style="text-align: right;">$5.99</td>
+<td style="text-align: right;">21.7%</td>
+<td style="text-align: right;">66.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td><strong>coastal / coastal-grandmother</strong></td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">2,047</td>
+<td style="text-align: right;">25,690</td>
+<td style="text-align: right;">$208,642</td>
+<td style="text-align: right;">$101.93</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">17.1%</td>
+<td style="text-align: right;">74.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td><strong>dark academia / gothic / moody</strong></td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">1,311</td>
+<td style="text-align: right;">18,658</td>
+<td style="text-align: right;">$116,405</td>
+<td style="text-align: right;">$88.79</td>
+<td style="text-align: right;">$5.66</td>
+<td style="text-align: right;">5.5%</td>
+<td style="text-align: right;">77.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td><strong>abstract / geometric / colour block</strong></td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">657</td>
+<td style="text-align: right;">9,596</td>
+<td style="text-align: right;">$99,524</td>
+<td style="text-align: right;">$151.48</td>
+<td style="text-align: right;">$6.49</td>
+<td style="text-align: right;">36.7%</td>
+<td style="text-align: right;">64.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td><strong>y2k / it-girl / leopard / fashion</strong></td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">699</td>
+<td style="text-align: right;">7,035</td>
+<td style="text-align: right;">$79,639</td>
+<td style="text-align: right;">$113.93</td>
+<td style="text-align: right;">$9.5</td>
+<td style="text-align: right;">59.9%</td>
+<td style="text-align: right;">70.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td><strong>typography-led / quote</strong></td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">1,367</td>
+<td style="text-align: right;">6,484</td>
+<td style="text-align: right;">$64,404</td>
+<td style="text-align: right;">$47.11</td>
+<td style="text-align: right;">$8</td>
+<td style="text-align: right;">7.1%</td>
+<td style="text-align: right;">69.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td><strong>humour / pun / novelty</strong></td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">1,456</td>
+<td style="text-align: right;">$19,141</td>
+<td style="text-align: right;">$269.59</td>
+<td style="text-align: right;">$7.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">57.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td><strong>retro print / newspaper / magazine</strong></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">2,734</td>
+<td style="text-align: right;">$18,969</td>
+<td style="text-align: right;">$237.11</td>
+<td style="text-align: right;">$9.27</td>
+<td style="text-align: right;">15.6%</td>
+<td style="text-align: right;">58.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td><strong>boho / scandi / japandi neutral</strong></td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">422</td>
+<td style="text-align: right;">1,251</td>
+<td style="text-align: right;">$17,320</td>
+<td style="text-align: right;">$41.04</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">47.4%</td>
+<td style="text-align: right;">87.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td><strong>cartoon / character (kids)</strong></td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">972</td>
+<td style="text-align: right;">$9,632</td>
+<td style="text-align: right;">$110.71</td>
+<td style="text-align: right;">$7.99</td>
+<td style="text-align: right;">49.3%</td>
+<td style="text-align: right;">78.2%</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>The <code>no clear aesthetic</code> bucket is large and that is a finding, not a gap.</strong> It means the listing titles and tags describe the <em>subject</em> (nursery, vintage, faith) and never commit to a visual style. That is the folder's core brand rule being broken quietly: many niches inside one aesthetic, but no aesthetic chosen. The shops that do name one - bold colour / maximalist at $668.55 yield per listing, vintage oil painting at $523.61 - earn multiples of the uncommitted median.</p>
+<h3 id="aesthetic-x-lane-affinity-shops-running-each-aesthetic-by-their-dominant-lane">Aesthetic x lane affinity (shops running each aesthetic, by their dominant lane)<a class="anchor" href="#aesthetic-x-lane-affinity-shops-running-each-aesthetic-by-their-dominant-lane">#</a></h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Aesthetic</th>
+<th>Lanes it appears in (shop count)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cottagecore / farmhouse</td>
+<td>holiday / seasonal (7), vintage / retro (5), frame tv art (3), faith / christian (1)</td>
+</tr>
+<tr>
+<td>botanical / floral study</td>
+<td>vintage / retro (4), nursery / kids (2), holiday / seasonal (2), botanical / floral (2)</td>
+</tr>
+<tr>
+<td>typography / quote-led</td>
+<td>vintage / retro (3), humour / typography quote (2), nursery / kids (1), faith / christian (1)</td>
+</tr>
+<tr>
+<td>y2k / it-girl / leopard</td>
+<td>vintage / retro (3), y2k / leopard / fashion (2), coastal / beach (1)</td>
+</tr>
+<tr>
+<td>landscape / nature vista</td>
+<td>frame tv art (3), faith / christian (1), vintage / retro (1), landscape / nature (1)</td>
+</tr>
+<tr>
+<td>vintage / antique oil painting</td>
+<td>faith / christian (2), vintage / retro (1), frame tv art (1)</td>
+</tr>
+<tr>
+<td>humour / pun novelty</td>
+<td>humour / kitchen-bathroom (3)</td>
+</tr>
+<tr>
+<td>abstract / geometric / bauhaus</td>
+<td>frame tv art (1), clipart / craft supplies (1), botanical / floral (1)</td>
+</tr>
+<tr>
+<td>minimalist line / single subject</td>
+<td>vintage / retro (2), svg / apparel (1)</td>
+</tr>
+<tr>
+<td>coastal / coastal-grandmother</td>
+<td>holiday / seasonal (1), nursery / kids (1)</td>
+</tr>
+<tr>
+<td>bold colour / maximalist / eclectic</td>
+<td>nursery / kids (2)</td>
+</tr>
+<tr>
+<td>dark academia / gothic</td>
+<td>vintage / retro (1)</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="section-3-direction-catalogue-all-three-axes">Section 3 - Direction catalogue (all three axes)<a class="anchor" href="#section-3-direction-catalogue-all-three-axes">#</a></h2>
+<p>120 qualified directions: 25+ listings and 2+ shops each. Sorted by revenue proxy. The top 20 get a full card; the rest are in the long table.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Lane</th>
+<th>Aesthetic</th>
+<th>Shape</th>
+<th style="text-align: right;">Shops</th>
+<th style="text-align: right;">Listings</th>
+<th style="text-align: right;">Units</th>
+<th style="text-align: right;">Rev proxy</th>
+<th style="text-align: right;">Yield/listing</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">Bundle % units</th>
+<th style="text-align: right;">Dead tail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>botanical / floral</td>
+<td>botanical / floral study</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">220</td>
+<td style="text-align: right;">3,462</td>
+<td style="text-align: right;">$855,465</td>
+<td style="text-align: right;">$3,888.48</td>
+<td style="text-align: right;">$11.26</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">51.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>unclassified</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">4,368</td>
+<td style="text-align: right;">68,164</td>
+<td style="text-align: right;">$485,890</td>
+<td style="text-align: right;">$111.24</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">67.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>vintage / retro / antique</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">174</td>
+<td style="text-align: right;">24,381</td>
+<td style="text-align: right;">$325,049</td>
+<td style="text-align: right;">$1,868.10</td>
+<td style="text-align: right;">$9.98</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">47.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>vintage / retro / antique</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">2,720</td>
+<td style="text-align: right;">51,403</td>
+<td style="text-align: right;">$304,841</td>
+<td style="text-align: right;">$112.07</td>
+<td style="text-align: right;">$5.66</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>vintage / retro / antique</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">142</td>
+<td style="text-align: right;">17,713</td>
+<td style="text-align: right;">$281,162</td>
+<td style="text-align: right;">$1,980.02</td>
+<td style="text-align: right;">$13.95</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">54.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>vintage / retro / antique</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">2,372</td>
+<td style="text-align: right;">46,519</td>
+<td style="text-align: right;">$264,232</td>
+<td style="text-align: right;">$111.40</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">75.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>humour / kitchen / bathroom</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">866</td>
+<td style="text-align: right;">20,695</td>
+<td style="text-align: right;">$248,951</td>
+<td style="text-align: right;">$287.47</td>
+<td style="text-align: right;">$8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">62.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>vintage / retro / antique</td>
+<td>vintage / antique oil painting</td>
+<td>single-print volume</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">383</td>
+<td style="text-align: right;">40,953</td>
+<td style="text-align: right;">$233,226</td>
+<td style="text-align: right;">$608.94</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">70.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>unclassified</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">432</td>
+<td style="text-align: right;">15,049</td>
+<td style="text-align: right;">$218,826</td>
+<td style="text-align: right;">$506.54</td>
+<td style="text-align: right;">$12</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">49.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td>nursery / baby room</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">550</td>
+<td style="text-align: right;">9,730</td>
+<td style="text-align: right;">$193,899</td>
+<td style="text-align: right;">$352.54</td>
+<td style="text-align: right;">$14.56</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">74%</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td>faith / christian</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">3,681</td>
+<td style="text-align: right;">21,528</td>
+<td style="text-align: right;">$140,303</td>
+<td style="text-align: right;">$38.12</td>
+<td style="text-align: right;">$3.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">79.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td>gallery wall / maximalist set</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">6,014</td>
+<td style="text-align: right;">$129,489</td>
+<td style="text-align: right;">$2,158.14</td>
+<td style="text-align: right;">$16.84</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">40%</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td>unclassified</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">8,056</td>
+<td style="text-align: right;">$126,410</td>
+<td style="text-align: right;">$3,160.24</td>
+<td style="text-align: right;">$11.32</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">52.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td>nursery / baby room</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">1,436</td>
+<td style="text-align: right;">8,549</td>
+<td style="text-align: right;">$122,851</td>
+<td style="text-align: right;">$85.55</td>
+<td style="text-align: right;">$10.45</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">87.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">15</td>
+<td>gallery wall / maximalist set</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">9,024</td>
+<td style="text-align: right;">$119,969</td>
+<td style="text-align: right;">$1,689.71</td>
+<td style="text-align: right;">$16</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">33.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">16</td>
+<td>coastal / beach / preppy</td>
+<td>coastal / coastal-grandmother</td>
+<td>single-print volume</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">1,211</td>
+<td style="text-align: right;">15,694</td>
+<td style="text-align: right;">$113,174</td>
+<td style="text-align: right;">$93.45</td>
+<td style="text-align: right;">$6.49</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">76.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">17</td>
+<td>nursery / baby room</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">3,156</td>
+<td style="text-align: right;">$94,641</td>
+<td style="text-align: right;">$2,628.91</td>
+<td style="text-align: right;">$20.64</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">66.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">18</td>
+<td>botanical / floral</td>
+<td>botanical / floral study</td>
+<td>single-print volume</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">1,908</td>
+<td style="text-align: right;">15,374</td>
+<td style="text-align: right;">$94,533</td>
+<td style="text-align: right;">$49.55</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">73.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">19</td>
+<td>vintage / retro / antique</td>
+<td>vintage / antique oil painting</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">9,399</td>
+<td style="text-align: right;">$93,241</td>
+<td style="text-align: right;">$1,983.84</td>
+<td style="text-align: right;">$12.07</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">48.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td>humour / kitchen / bathroom</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">171</td>
+<td style="text-align: right;">6,126</td>
+<td style="text-align: right;">$79,590</td>
+<td style="text-align: right;">$465.44</td>
+<td style="text-align: right;">$13.36</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">29.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">21</td>
+<td>frame-tv / screen art</td>
+<td>no clear aesthetic</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">2,421</td>
+<td style="text-align: right;">19,938</td>
+<td style="text-align: right;">$75,197</td>
+<td style="text-align: right;">$31.06</td>
+<td style="text-align: right;">$5.01</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">80.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">22</td>
+<td>landscape / nature vista</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">468</td>
+<td style="text-align: right;">12,997</td>
+<td style="text-align: right;">$74,258</td>
+<td style="text-align: right;">$158.67</td>
+<td style="text-align: right;">$6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">84%</td>
+</tr>
+<tr>
+<td style="text-align: right;">23</td>
+<td>college / dorm / teen</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">181</td>
+<td style="text-align: right;">3,642</td>
+<td style="text-align: right;">$67,905</td>
+<td style="text-align: right;">$375.17</td>
+<td style="text-align: right;">$21.2</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">30.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">24</td>
+<td>nursery / baby room</td>
+<td>no clear aesthetic</td>
+<td>personalised / custom</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">182</td>
+<td style="text-align: right;">3,615</td>
+<td style="text-align: right;">$59,898</td>
+<td style="text-align: right;">$329.11</td>
+<td style="text-align: right;">$13.31</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">72.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">25</td>
+<td>gallery wall / maximalist set</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">114</td>
+<td style="text-align: right;">2,540</td>
+<td style="text-align: right;">$59,836</td>
+<td style="text-align: right;">$524.88</td>
+<td style="text-align: right;">$8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">68.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">26</td>
+<td>coastal / beach / preppy</td>
+<td>coastal / coastal-grandmother</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">3,481</td>
+<td style="text-align: right;">$57,590</td>
+<td style="text-align: right;">$373.96</td>
+<td style="text-align: right;">$14.91</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">59.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">27</td>
+<td>humour / kitchen / bathroom</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">2,163</td>
+<td style="text-align: right;">$53,749</td>
+<td style="text-align: right;">$537.49</td>
+<td style="text-align: right;">$11.68</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">71%</td>
+</tr>
+<tr>
+<td style="text-align: right;">28</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">988</td>
+<td style="text-align: right;">5,867</td>
+<td style="text-align: right;">$51,763</td>
+<td style="text-align: right;">$52.39</td>
+<td style="text-align: right;">$8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">66.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">29</td>
+<td>vintage / retro / antique</td>
+<td>dark academia / gothic / moody</td>
+<td>single-print volume</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">247</td>
+<td style="text-align: right;">9,048</td>
+<td style="text-align: right;">$50,681</td>
+<td style="text-align: right;">$205.19</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">66.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">30</td>
+<td>college / dorm / teen</td>
+<td>no clear aesthetic</td>
+<td>personalised / custom</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">1,946</td>
+<td style="text-align: right;">$44,438</td>
+<td style="text-align: right;">$673.30</td>
+<td style="text-align: right;">$14.64</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">40.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">31</td>
+<td>faith / christian</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">138</td>
+<td style="text-align: right;">2,050</td>
+<td style="text-align: right;">$42,410</td>
+<td style="text-align: right;">$307.32</td>
+<td style="text-align: right;">$10.77</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">74.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">32</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">181</td>
+<td style="text-align: right;">3,863</td>
+<td style="text-align: right;">$42,348</td>
+<td style="text-align: right;">$233.97</td>
+<td style="text-align: right;">$11.07</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">50.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">33</td>
+<td>typography / quote / affirmation</td>
+<td>typography-led / quote</td>
+<td>single-print volume</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">710</td>
+<td style="text-align: right;">4,199</td>
+<td style="text-align: right;">$40,506</td>
+<td style="text-align: right;">$57.05</td>
+<td style="text-align: right;">$8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">68.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">34</td>
+<td>abstract / geometric / bauhaus</td>
+<td>abstract / geometric / colour block</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">2,824</td>
+<td style="text-align: right;">$39,280</td>
+<td style="text-align: right;">$503.59</td>
+<td style="text-align: right;">$12</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">48.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">35</td>
+<td>college / dorm / teen</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">254</td>
+<td style="text-align: right;">3,155</td>
+<td style="text-align: right;">$37,165</td>
+<td style="text-align: right;">$146.32</td>
+<td style="text-align: right;">$8.56</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">44.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">36</td>
+<td>vintage / retro / antique</td>
+<td>botanical / floral study</td>
+<td>single-print volume</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">6,115</td>
+<td style="text-align: right;">$34,646</td>
+<td style="text-align: right;">$320.80</td>
+<td style="text-align: right;">$5.66</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">66.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">37</td>
+<td>frame-tv / screen art</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;">5,873</td>
+<td style="text-align: right;">$34,541</td>
+<td style="text-align: right;">$252.13</td>
+<td style="text-align: right;">$10.07</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">64.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">38</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">184</td>
+<td style="text-align: right;">1,961</td>
+<td style="text-align: right;">$34,424</td>
+<td style="text-align: right;">$187.09</td>
+<td style="text-align: right;">$16</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">62%</td>
+</tr>
+<tr>
+<td style="text-align: right;">39</td>
+<td>nursery / baby room</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">269</td>
+<td style="text-align: right;">1,614</td>
+<td style="text-align: right;">$33,199</td>
+<td style="text-align: right;">$123.42</td>
+<td style="text-align: right;">$12.61</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">90.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">40</td>
+<td>landscape / nature vista</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">366</td>
+<td style="text-align: right;">5,458</td>
+<td style="text-align: right;">$31,170</td>
+<td style="text-align: right;">$85.16</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">83.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">41</td>
+<td>unclassified</td>
+<td>dark academia / gothic / moody</td>
+<td>single-print volume</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">391</td>
+<td style="text-align: right;">4,931</td>
+<td style="text-align: right;">$29,097</td>
+<td style="text-align: right;">$74.42</td>
+<td style="text-align: right;">$5.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">85.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">42</td>
+<td>unclassified</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">559</td>
+<td style="text-align: right;">4,549</td>
+<td style="text-align: right;">$28,659</td>
+<td style="text-align: right;">$51.27</td>
+<td style="text-align: right;">$5.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">72.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">43</td>
+<td>unclassified</td>
+<td>no clear aesthetic</td>
+<td>personalised / custom</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">2,533</td>
+<td style="text-align: right;">$27,806</td>
+<td style="text-align: right;">$123.04</td>
+<td style="text-align: right;">$12.49</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">71.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">44</td>
+<td>abstract / geometric / bauhaus</td>
+<td>abstract / geometric / colour block</td>
+<td>single-print volume</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">306</td>
+<td style="text-align: right;">3,788</td>
+<td style="text-align: right;">$26,490</td>
+<td style="text-align: right;">$86.57</td>
+<td style="text-align: right;">$6.49</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">70.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">45</td>
+<td>music / album / band</td>
+<td>no clear aesthetic</td>
+<td>high-ticket / physical-tier</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">321</td>
+<td style="text-align: right;">247</td>
+<td style="text-align: right;">$26,380</td>
+<td style="text-align: right;">$82.18</td>
+<td style="text-align: right;">$106.8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">94.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">46</td>
+<td>svg / apparel / streetwear</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">348</td>
+<td style="text-align: right;">6,417</td>
+<td style="text-align: right;">$21,562</td>
+<td style="text-align: right;">$61.96</td>
+<td style="text-align: right;">$3.21</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">75.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">47</td>
+<td>faith / christian</td>
+<td>no clear aesthetic</td>
+<td>high-ticket / physical-tier</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">379</td>
+<td style="text-align: right;">$21,160</td>
+<td style="text-align: right;">$298.03</td>
+<td style="text-align: right;">$47.52</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">83.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">48</td>
+<td>botanical / floral</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">978</td>
+<td style="text-align: right;">$20,263</td>
+<td style="text-align: right;">$750.47</td>
+<td style="text-align: right;">$18.66</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">44.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">49</td>
+<td>unclassified</td>
+<td>vintage / antique oil painting</td>
+<td>single-print volume</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">3,545</td>
+<td style="text-align: right;">$19,925</td>
+<td style="text-align: right;">$797.01</td>
+<td style="text-align: right;">$5.66</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">44%</td>
+</tr>
+<tr>
+<td style="text-align: right;">50</td>
+<td>travel / world map / city</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">2,529</td>
+<td style="text-align: right;">$19,898</td>
+<td style="text-align: right;">$164.45</td>
+<td style="text-align: right;">$7</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">66.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">51</td>
+<td>humour / kitchen / bathroom</td>
+<td>humour / pun / novelty</td>
+<td>single-print volume</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">1,427</td>
+<td style="text-align: right;">$19,048</td>
+<td style="text-align: right;">$328.41</td>
+<td style="text-align: right;">$9.16</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">50%</td>
+</tr>
+<tr>
+<td style="text-align: right;">52</td>
+<td>botanical / floral</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">2,820</td>
+<td style="text-align: right;">$18,143</td>
+<td style="text-align: right;">$92.57</td>
+<td style="text-align: right;">$5.8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">61.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">53</td>
+<td>nursery / baby room</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">147</td>
+<td style="text-align: right;">1,977</td>
+<td style="text-align: right;">$16,472</td>
+<td style="text-align: right;">$112.05</td>
+<td style="text-align: right;">$9.94</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">76.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">54</td>
+<td>frame-tv / screen art</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">965</td>
+<td style="text-align: right;">5,930</td>
+<td style="text-align: right;">$15,657</td>
+<td style="text-align: right;">$16.22</td>
+<td style="text-align: right;">$5.01</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">82.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">55</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>no clear aesthetic</td>
+<td>high-ticket / physical-tier</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">266</td>
+<td style="text-align: right;">$14,956</td>
+<td style="text-align: right;">$311.58</td>
+<td style="text-align: right;">$44.94</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">70.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">56</td>
+<td>pet / animal portrait</td>
+<td>no clear aesthetic</td>
+<td>personalised / custom</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">603</td>
+<td style="text-align: right;">$12,513</td>
+<td style="text-align: right;">$240.64</td>
+<td style="text-align: right;">$13.25</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">65.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">57</td>
+<td>botanical / floral</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">2,187</td>
+<td style="text-align: right;">$12,322</td>
+<td style="text-align: right;">$77.01</td>
+<td style="text-align: right;">$5.66</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">70%</td>
+</tr>
+<tr>
+<td style="text-align: right;">58</td>
+<td>animal / zoo (kids)</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">1,891</td>
+<td style="text-align: right;">$12,224</td>
+<td style="text-align: right;">$117.54</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">77.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">59</td>
+<td>sports / fandom / signed</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">507</td>
+<td style="text-align: right;">1,650</td>
+<td style="text-align: right;">$11,995</td>
+<td style="text-align: right;">$23.66</td>
+<td style="text-align: right;">$6.88</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">50.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">60</td>
+<td>humour / kitchen / bathroom</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">2,098</td>
+<td style="text-align: right;">$11,957</td>
+<td style="text-align: right;">$125.87</td>
+<td style="text-align: right;">$7</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">84.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">61</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>single-print volume</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">197</td>
+<td style="text-align: right;">1,163</td>
+<td style="text-align: right;">$10,616</td>
+<td style="text-align: right;">$53.89</td>
+<td style="text-align: right;">$6.77</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">74.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">62</td>
+<td>botanical / floral</td>
+<td>dark academia / gothic / moody</td>
+<td>single-print volume</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">1,864</td>
+<td style="text-align: right;">$10,238</td>
+<td style="text-align: right;">$162.51</td>
+<td style="text-align: right;">$4.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">58.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">63</td>
+<td>music / album / band</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">761</td>
+<td style="text-align: right;">$9,914</td>
+<td style="text-align: right;">$275.40</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">83.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">64</td>
+<td>landscape / nature vista</td>
+<td>vintage / antique oil painting</td>
+<td>single-print volume</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">1,676</td>
+<td style="text-align: right;">$9,548</td>
+<td style="text-align: right;">$151.55</td>
+<td style="text-align: right;">$5.66</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">74.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">65</td>
+<td>sports / fandom / signed</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">698</td>
+<td style="text-align: right;">$8,949</td>
+<td style="text-align: right;">$74.58</td>
+<td style="text-align: right;">$12.11</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">59.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">66</td>
+<td>frame-tv / screen art</td>
+<td>botanical / floral study</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">307</td>
+<td style="text-align: right;">2,164</td>
+<td style="text-align: right;">$8,410</td>
+<td style="text-align: right;">$27.40</td>
+<td style="text-align: right;">$5</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">77.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">67</td>
+<td>music / album / band</td>
+<td>no clear aesthetic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">504</td>
+<td style="text-align: right;">$8,283</td>
+<td style="text-align: right;">$91.02</td>
+<td style="text-align: right;">$14.23</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">65.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">68</td>
+<td>faith / christian</td>
+<td>no clear aesthetic</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">963</td>
+<td style="text-align: right;">$8,185</td>
+<td style="text-align: right;">$97.44</td>
+<td style="text-align: right;">$6.37</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">79.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">69</td>
+<td>vintage / retro / antique</td>
+<td>retro print / newspaper / magazine</td>
+<td>single-print volume</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">1,131</td>
+<td style="text-align: right;">$7,750</td>
+<td style="text-align: right;">$215.27</td>
+<td style="text-align: right;">$12</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">69.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">70</td>
+<td>vintage / retro / antique</td>
+<td>coastal / coastal-grandmother</td>
+<td>single-print volume</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">1,323</td>
+<td style="text-align: right;">$7,719</td>
+<td style="text-align: right;">$89.75</td>
+<td style="text-align: right;">$5.82</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">72.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">71</td>
+<td>frame-tv / screen art</td>
+<td>coastal / coastal-grandmother</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">333</td>
+<td style="text-align: right;">2,621</td>
+<td style="text-align: right;">$7,322</td>
+<td style="text-align: right;">$21.99</td>
+<td style="text-align: right;">$5.01</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">73.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">72</td>
+<td>unclassified</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">157</td>
+<td style="text-align: right;">738</td>
+<td style="text-align: right;">$7,079</td>
+<td style="text-align: right;">$45.09</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">79%</td>
+</tr>
+<tr>
+<td style="text-align: right;">73</td>
+<td>vintage / retro / antique</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>high-ticket / physical-tier</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">411</td>
+<td style="text-align: right;">142</td>
+<td style="text-align: right;">$6,832</td>
+<td style="text-align: right;">$16.62</td>
+<td style="text-align: right;">$44.89</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">86.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">74</td>
+<td>humour / kitchen / bathroom</td>
+<td>typography-led / quote</td>
+<td>single-print volume</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">195</td>
+<td style="text-align: right;">575</td>
+<td style="text-align: right;">$5,633</td>
+<td style="text-align: right;">$28.89</td>
+<td style="text-align: right;">$7.96</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">61.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">75</td>
+<td>landscape / nature vista</td>
+<td>coastal / coastal-grandmother</td>
+<td>single-print volume</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">969</td>
+<td style="text-align: right;">$5,597</td>
+<td style="text-align: right;">$121.68</td>
+<td style="text-align: right;">$5.66</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">67.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">76</td>
+<td>unclassified</td>
+<td>abstract / geometric / colour block</td>
+<td>single-print volume</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">451</td>
+<td style="text-align: right;">$5,574</td>
+<td style="text-align: right;">$159.26</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">77.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">77</td>
+<td>frame-tv / screen art</td>
+<td>abstract / geometric / colour block</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">125</td>
+<td style="text-align: right;">974</td>
+<td style="text-align: right;">$5,560</td>
+<td style="text-align: right;">$44.48</td>
+<td style="text-align: right;">$5</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">68.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">78</td>
+<td>typography / quote / affirmation</td>
+<td>typography-led / quote</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">386</td>
+<td style="text-align: right;">$5,340</td>
+<td style="text-align: right;">$84.76</td>
+<td style="text-align: right;">$12.49</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">65.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">79</td>
+<td>botanical / floral</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">648</td>
+<td style="text-align: right;">$5,272</td>
+<td style="text-align: right;">$164.76</td>
+<td style="text-align: right;">$5.84</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">65.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">80</td>
+<td>frame-tv / screen art</td>
+<td>vintage / antique oil painting</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">126</td>
+<td style="text-align: right;">1,969</td>
+<td style="text-align: right;">$5,038</td>
+<td style="text-align: right;">$39.99</td>
+<td style="text-align: right;">$5.01</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">57.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">81</td>
+<td>college / dorm / teen</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>single-print volume</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">667</td>
+<td style="text-align: right;">$4,581</td>
+<td style="text-align: right;">$123.82</td>
+<td style="text-align: right;">$6.77</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">51.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">82</td>
+<td>minimalist / neutral / beige</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">277</td>
+<td style="text-align: right;">760</td>
+<td style="text-align: right;">$4,402</td>
+<td style="text-align: right;">$15.89</td>
+<td style="text-align: right;">$6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">80.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">83</td>
+<td>typography / quote / affirmation</td>
+<td>typography-led / quote</td>
+<td>personalised / custom</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">338</td>
+<td style="text-align: right;">$4,285</td>
+<td style="text-align: right;">$107.14</td>
+<td style="text-align: right;">$9.98</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">62.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">84</td>
+<td>nursery / baby room</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>bundle-led (sets + mega)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">339</td>
+<td style="text-align: right;">$4,267</td>
+<td style="text-align: right;">$125.49</td>
+<td style="text-align: right;">$14.94</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">76.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">85</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">452</td>
+<td style="text-align: right;">$3,616</td>
+<td style="text-align: right;">$103.31</td>
+<td style="text-align: right;">$8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">17.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">86</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">261</td>
+<td style="text-align: right;">528</td>
+<td style="text-align: right;">$3,483</td>
+<td style="text-align: right;">$13.35</td>
+<td style="text-align: right;">$7</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">87.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">87</td>
+<td>frame-tv / screen art</td>
+<td>dark academia / gothic / moody</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">247</td>
+<td style="text-align: right;">1,100</td>
+<td style="text-align: right;">$3,355</td>
+<td style="text-align: right;">$13.58</td>
+<td style="text-align: right;">$5.01</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">85.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">88</td>
+<td>botanical / floral</td>
+<td>botanical / floral study</td>
+<td>high-ticket / physical-tier</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">$3,331</td>
+<td style="text-align: right;">$97.97</td>
+<td style="text-align: right;">$56.09</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">67.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">89</td>
+<td>landscape / nature vista</td>
+<td>no clear aesthetic</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">1,518</td>
+<td style="text-align: right;">$3,224</td>
+<td style="text-align: right;">$111.16</td>
+<td style="text-align: right;">$5</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">82.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">90</td>
+<td>minimalist / neutral / beige</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">541</td>
+<td style="text-align: right;">$3,119</td>
+<td style="text-align: right;">$91.73</td>
+<td style="text-align: right;">$6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">61.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">91</td>
+<td>vintage / retro / antique</td>
+<td>no clear aesthetic</td>
+<td>high-ticket / physical-tier</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">208</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">$2,493</td>
+<td style="text-align: right;">$11.99</td>
+<td style="text-align: right;">$44.94</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">89.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">92</td>
+<td>nursery / baby room</td>
+<td>typography-led / quote</td>
+<td>single-print volume</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">240</td>
+<td style="text-align: right;">$2,357</td>
+<td style="text-align: right;">$19.64</td>
+<td style="text-align: right;">$9.59</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">84.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">93</td>
+<td>vintage / retro / antique</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>single-print volume</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">217</td>
+<td style="text-align: right;">$2,143</td>
+<td style="text-align: right;">$22.56</td>
+<td style="text-align: right;">$9.5</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">82.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">94</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>dark academia / gothic / moody</td>
+<td>single-print volume</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">379</td>
+<td style="text-align: right;">$1,917</td>
+<td style="text-align: right;">$18.09</td>
+<td style="text-align: right;">$5.28</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">82.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">95</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>vintage / antique oil painting</td>
+<td>single-print volume</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">208</td>
+<td style="text-align: right;">$1,587</td>
+<td style="text-align: right;">$33.77</td>
+<td style="text-align: right;">$12.07</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">97.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">96</td>
+<td>vintage / retro / antique</td>
+<td>typography-led / quote</td>
+<td>single-print volume</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">181</td>
+<td style="text-align: right;">$1,552</td>
+<td style="text-align: right;">$37.84</td>
+<td style="text-align: right;">$7.95</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">73.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">97</td>
+<td>coastal / beach / preppy</td>
+<td>coastal / coastal-grandmother</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">380</td>
+<td style="text-align: right;">$1,392</td>
+<td style="text-align: right;">$18.31</td>
+<td style="text-align: right;">$5</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">77.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">98</td>
+<td>minimalist / neutral / beige</td>
+<td>boho / scandi / japandi neutral</td>
+<td>single-print volume</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">211</td>
+<td style="text-align: right;">232</td>
+<td style="text-align: right;">$1,380</td>
+<td style="text-align: right;">$6.54</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">90.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">99</td>
+<td>unclassified</td>
+<td>boho / scandi / japandi neutral</td>
+<td>single-print volume</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">211</td>
+<td style="text-align: right;">$1,260</td>
+<td style="text-align: right;">$26.25</td>
+<td style="text-align: right;">$6.43</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">83.3%</td>
+</tr>
+<tr>
+<td style="text-align: right;">100</td>
+<td>unclassified</td>
+<td>no clear aesthetic</td>
+<td>high-ticket / physical-tier</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">$1,161</td>
+<td style="text-align: right;">$43.00</td>
+<td style="text-align: right;">$56.09</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">77.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">101</td>
+<td>vintage / retro / antique</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">281</td>
+<td style="text-align: right;">$1,148</td>
+<td style="text-align: right;">$16.64</td>
+<td style="text-align: right;">$5.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">85.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">102</td>
+<td>faith / christian</td>
+<td>typography-led / quote</td>
+<td>single-print volume</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">$1,116</td>
+<td style="text-align: right;">$34.88</td>
+<td style="text-align: right;">$9.54</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">87.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">103</td>
+<td>unclassified</td>
+<td>coastal / coastal-grandmother</td>
+<td>single-print volume</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">164</td>
+<td style="text-align: right;">$995</td>
+<td style="text-align: right;">$23.70</td>
+<td style="text-align: right;">$6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">78.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">104</td>
+<td>coastal / beach / preppy</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">$987</td>
+<td style="text-align: right;">$34.05</td>
+<td style="text-align: right;">$8.56</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">65.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">105</td>
+<td>animal / zoo (kids)</td>
+<td>cottagecore / farmhouse / rustic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">168</td>
+<td style="text-align: right;">$937</td>
+<td style="text-align: right;">$34.72</td>
+<td style="text-align: right;">$5.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">77.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">106</td>
+<td>college / dorm / teen</td>
+<td>typography-led / quote</td>
+<td>single-print volume</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">$875</td>
+<td style="text-align: right;">$7.88</td>
+<td style="text-align: right;">$7.96</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">69.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">107</td>
+<td>botanical / floral</td>
+<td>boho / scandi / japandi neutral</td>
+<td>single-print volume</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">$862</td>
+<td style="text-align: right;">$33.15</td>
+<td style="text-align: right;">$6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">88.5%</td>
+</tr>
+<tr>
+<td style="text-align: right;">108</td>
+<td>pet / animal portrait</td>
+<td>no clear aesthetic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">$852</td>
+<td style="text-align: right;">$9.57</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">92.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">109</td>
+<td>college / dorm / teen</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>single-print volume</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">$670</td>
+<td style="text-align: right;">$20.31</td>
+<td style="text-align: right;">$8</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">78.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">110</td>
+<td>landscape / nature vista</td>
+<td>dark academia / gothic / moody</td>
+<td>single-print volume</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">98</td>
+<td style="text-align: right;">$558</td>
+<td style="text-align: right;">$12.41</td>
+<td style="text-align: right;">$5.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">86.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">111</td>
+<td>frame-tv / screen art</td>
+<td>bold colour / maximalist / eclectic</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">$473</td>
+<td style="text-align: right;">$5.14</td>
+<td style="text-align: right;">$5.01</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">72.8%</td>
+</tr>
+<tr>
+<td style="text-align: right;">112</td>
+<td>landscape / nature vista</td>
+<td>botanical / floral study</td>
+<td>single-print volume</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">$422</td>
+<td style="text-align: right;">$11.71</td>
+<td style="text-align: right;">$5.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">80.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">113</td>
+<td>humour / kitchen / bathroom</td>
+<td>dark academia / gothic / moody</td>
+<td>single-print volume</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">153</td>
+<td style="text-align: right;">$414</td>
+<td style="text-align: right;">$11.50</td>
+<td style="text-align: right;">$5.21</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">69.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">114</td>
+<td>faith / christian</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>single-print volume</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">$412</td>
+<td style="text-align: right;">$11.44</td>
+<td style="text-align: right;">$12.61</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">91.7%</td>
+</tr>
+<tr>
+<td style="text-align: right;">115</td>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td>no clear aesthetic</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">$250</td>
+<td style="text-align: right;">$3.12</td>
+<td style="text-align: right;">$4.16</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">90%</td>
+</tr>
+<tr>
+<td style="text-align: right;">116</td>
+<td>botanical / floral</td>
+<td>botanical / floral study</td>
+<td>frame-tv single</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">$242</td>
+<td style="text-align: right;">$3.61</td>
+<td style="text-align: right;">$5</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">89.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">117</td>
+<td>unclassified</td>
+<td>y2k / it-girl / leopard / fashion</td>
+<td>single-print volume</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">$170</td>
+<td style="text-align: right;">$3.77</td>
+<td style="text-align: right;">$5.98</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">95.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">118</td>
+<td>nursery / baby room</td>
+<td>cartoon / character (kids)</td>
+<td>single-print volume</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">$168</td>
+<td style="text-align: right;">$4.66</td>
+<td style="text-align: right;">$7.99</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">94.4%</td>
+</tr>
+<tr>
+<td style="text-align: right;">119</td>
+<td>nursery / baby room</td>
+<td>botanical / floral study</td>
+<td>single-print volume</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">$37</td>
+<td style="text-align: right;">$1.12</td>
+<td style="text-align: right;">$6.69</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">90.9%</td>
+</tr>
+<tr>
+<td style="text-align: right;">120</td>
+<td>landscape / nature vista</td>
+<td>boho / scandi / japandi neutral</td>
+<td>single-print volume</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">$0</td>
+<td style="text-align: right;">$0.00</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">0%</td>
+<td style="text-align: right;">100%</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="direction-cards-the-top-20-by-revenue">Direction cards - the top 20 by revenue<a class="anchor" href="#direction-cards-the-top-20-by-revenue">#</a></h3>
+<h4 id="1-botanical-floral-botanical-floral-study-bundle-led-sets-mega">1. botanical / floral | botanical / floral study | bundle-led (sets + mega)<a class="anchor" href="#1-botanical-floral-botanical-floral-study-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>31 shops, 220 listings, 3,462 units, $855,465 USD revenue proxy.</strong> Yield per listing <strong>$3,888.48</strong>, units per listing 15.74.</li>
+<li><strong>Price:</strong> median $11.26, IQR $7.07-$15.84. Bands: $3-5 5.5%, $5-8 24.5%, $8-12 22.3%, $12-20 36.4%, $20-40 10.9%, $40+ 0.5%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 5.9%. Dead tail 51.4%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>AprilLaneArt</code>, <code>ArtivaprintShop</code>, <code>BitterSweetDigitalCo</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code>, <code>DigiLabsy</code>, <code>ExaFrameStudio</code>, <code>FadedMusePrints</code>, <code>GalleryPrintsbySK</code>, <code>HarmonyPixels</code>, <code>HippoDigitalShop</code></li>
+</ul>
+<h4 id="2-unclassified-no-clear-aesthetic-single-print-volume">2. unclassified | no clear aesthetic | single-print volume<a class="anchor" href="#2-unclassified-no-clear-aesthetic-single-print-volume">#</a></h4>
+<ul>
+<li><strong>64 shops, 4,368 listings, 68,164 units, $485,890 USD revenue proxy.</strong> Yield per listing <strong>$111.24</strong>, units per listing 15.61.</li>
+<li><strong>Price:</strong> median $6.6, IQR $5.66-$9.29. Bands: $0-3 0.6%, $3-5 17.4%, $5-8 42.6%, $8-12 28.1%, $12-20 10.3%, $20-40 1.0%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.8%. Dead tail 67.8%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArchiveArtCo</code>, <code>ArtPrintsbyCoco</code>, <code>ArtivaprintShop</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>BloomJetsetPrints</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code></li>
+</ul>
+<h4 id="3-vintage-retro-antique-no-clear-aesthetic-bundle-led-sets-mega">3. vintage / retro / antique | no clear aesthetic | bundle-led (sets + mega)<a class="anchor" href="#3-vintage-retro-antique-no-clear-aesthetic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>33 shops, 174 listings, 24,381 units, $325,049 USD revenue proxy.</strong> Yield per listing <strong>$1,868.10</strong>, units per listing 140.12.</li>
+<li><strong>Price:</strong> median $9.98, IQR $7.07-$14.99. Bands: $3-5 3.4%, $5-8 28.2%, $8-12 25.3%, $12-20 32.8%, $20-40 10.3%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 6.9%. Dead tail 47.1%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArtPrintsbyCoco</code>, <code>BitterSweetDigitalCo</code>, <code>BloomJetsetPrints</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code>, <code>CultHausStudio</code>, <code>DigiLabsy</code>, <code>DigitalStudioArtUA</code>, <code>FadedMusePrints</code></li>
+</ul>
+<h4 id="4-vintage-retro-antique-no-clear-aesthetic-single-print-volume">4. vintage / retro / antique | no clear aesthetic | single-print volume<a class="anchor" href="#4-vintage-retro-antique-no-clear-aesthetic-single-print-volume">#</a></h4>
+<ul>
+<li><strong>52 shops, 2,720 listings, 51,403 units, $304,841 USD revenue proxy.</strong> Yield per listing <strong>$112.07</strong>, units per listing 18.9.</li>
+<li><strong>Price:</strong> median $5.66, IQR $4.99-$6.8. Bands: $0-3 0.8%, $3-5 41.5%, $5-8 37.1%, $8-12 14.6%, $12-20 5.9%, $20-40 0.0%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.4%. Dead tail 67%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArchiveArtCo</code>, <code>ArtPrintsbyCoco</code>, <code>ArtivaprintShop</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>BloomJetsetPrints</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code></li>
+</ul>
+<h4 id="5-vintage-retro-antique-cottagecore-farmhouse-rustic-bundle-led-sets-mega">5. vintage / retro / antique | cottagecore / farmhouse / rustic | bundle-led (sets + mega)<a class="anchor" href="#5-vintage-retro-antique-cottagecore-farmhouse-rustic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>25 shops, 142 listings, 17,713 units, $281,162 USD revenue proxy.</strong> Yield per listing <strong>$1,980.02</strong>, units per listing 124.74.</li>
+<li><strong>Price:</strong> median $13.95, IQR $9.94-$16.56. Bands: $3-5 0.7%, $5-8 12.0%, $8-12 24.6%, $12-20 50.7%, $20-40 9.9%, $40+ 2.1%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 2.8%. Dead tail 54.2%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArtPrintsbyCoco</code>, <code>ArtivaprintShop</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>ColorsAtelierStudio</code>, <code>CultHausStudio</code>, <code>FadedMusePrints</code>, <code>GalleryPrintsbySK</code>, <code>JollyJoyPrintsStudio</code></li>
+</ul>
+<h4 id="6-vintage-retro-antique-cottagecore-farmhouse-rustic-single-print-volume">6. vintage / retro / antique | cottagecore / farmhouse / rustic | single-print volume<a class="anchor" href="#6-vintage-retro-antique-cottagecore-farmhouse-rustic-single-print-volume">#</a></h4>
+<ul>
+<li><strong>47 shops, 2,372 listings, 46,519 units, $264,232 USD revenue proxy.</strong> Yield per listing <strong>$111.40</strong>, units per listing 19.61.</li>
+<li><strong>Price:</strong> median $5.98, IQR $4.99-$6.8. Bands: $0-3 0.4%, $3-5 26.1%, $5-8 63.3%, $8-12 7.5%, $12-20 2.6%, $20-40 0.1%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.1%. Dead tail 75.4%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArchiveArtCo</code>, <code>ArtPrintsbyCoco</code>, <code>ArtivaprintShop</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code></li>
+</ul>
+<h4 id="7-humour-kitchen-bathroom-no-clear-aesthetic-single-print-volume">7. humour / kitchen / bathroom | no clear aesthetic | single-print volume<a class="anchor" href="#7-humour-kitchen-bathroom-no-clear-aesthetic-single-print-volume">#</a></h4>
+<ul>
+<li><strong>41 shops, 866 listings, 20,695 units, $248,951 USD revenue proxy.</strong> Yield per listing <strong>$287.47</strong>, units per listing 23.9.</li>
+<li><strong>Price:</strong> median $8, IQR $6.01-$11.41. Bands: $0-3 0.3%, $3-5 10.5%, $5-8 32.9%, $8-12 32.7%, $12-20 19.4%, $20-40 4.2%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.1%. Dead tail 62.1%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code>, <code>CoolArtByJacob</code>, <code>DigiLabsy</code>, <code>DigitalStudioArtUA</code>, <code>FadedMusePrints</code></li>
+</ul>
+<h4 id="8-vintage-retro-antique-vintage-antique-oil-painting-single-print-volume">8. vintage / retro / antique | vintage / antique oil painting | single-print volume<a class="anchor" href="#8-vintage-retro-antique-vintage-antique-oil-painting-single-print-volume">#</a></h4>
+<ul>
+<li><strong>34 shops, 383 listings, 40,953 units, $233,226 USD revenue proxy.</strong> Yield per listing <strong>$608.94</strong>, units per listing 106.93.</li>
+<li><strong>Price:</strong> median $5.98, IQR $5.66-$7.98. Bands: $0-3 0.5%, $3-5 19.6%, $5-8 59.8%, $8-12 1.8%, $12-20 18.3%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.8%. Dead tail 70.5%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>ArchiveArtCo</code>, <code>ArtPrintsbyCoco</code>, <code>ArtlyNestPrints</code>, <code>BitterSweetDigitalCo</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code>, <code>CoolArtByJacob</code>, <code>CultHausStudio</code>, <code>DigiLabsy</code></li>
+</ul>
+<h4 id="9-unclassified-no-clear-aesthetic-bundle-led-sets-mega">9. unclassified | no clear aesthetic | bundle-led (sets + mega)<a class="anchor" href="#9-unclassified-no-clear-aesthetic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>46 shops, 432 listings, 15,049 units, $218,826 USD revenue proxy.</strong> Yield per listing <strong>$506.54</strong>, units per listing 34.84.</li>
+<li><strong>Price:</strong> median $12, IQR $8.4-$16. Bands: $3-5 4.2%, $5-8 17.8%, $8-12 25.5%, $12-20 39.4%, $20-40 11.6%, $40+ 1.6%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 6.5%. Dead tail 49.5%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArtivaprintShop</code>, <code>ArtlyNestPrints</code>, <code>BitterSweetDigitalCo</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code>, <code>CoolArtByJacob</code>, <code>CultHausStudio</code>, <code>DigiLabsy</code>, <code>DigitalStudioArtUA</code></li>
+</ul>
+<h4 id="10-nursery-baby-room-no-clear-aesthetic-bundle-led-sets-mega">10. nursery / baby room | no clear aesthetic | bundle-led (sets + mega)<a class="anchor" href="#10-nursery-baby-room-no-clear-aesthetic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>29 shops, 550 listings, 9,730 units, $193,899 USD revenue proxy.</strong> Yield per listing <strong>$352.54</strong>, units per listing 17.69.</li>
+<li><strong>Price:</strong> median $14.56, IQR $12-$18.19. Bands: $3-5 0.4%, $5-8 4.5%, $8-12 17.8%, $12-20 61.8%, $20-40 14.5%, $40+ 0.9%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 8.9%. Dead tail 74%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>ChristArtCrafts</code>, <code>DigiLabsy</code>, <code>GalleryPrintsbySK</code>, <code>HarmonyPixels</code>, <code>HippoDigitalShop</code>, <code>HomefyStudio</code>, <code>JCSDesignWorks</code>, <code>JollyJoyPrintsStudio</code>, <code>JuniperHousePrints</code>, <code>LamaOakPrints</code></li>
+</ul>
+<h4 id="11-faith-christian-no-clear-aesthetic-single-print-volume">11. faith / christian | no clear aesthetic | single-print volume<a class="anchor" href="#11-faith-christian-no-clear-aesthetic-single-print-volume">#</a></h4>
+<ul>
+<li><strong>28 shops, 3,681 listings, 21,528 units, $140,303 USD revenue proxy.</strong> Yield per listing <strong>$38.12</strong>, units per listing 5.85.</li>
+<li><strong>Price:</strong> median $3.99, IQR $3.99-$9.78. Bands: $0-3 0.1%, $3-5 55.3%, $5-8 7.1%, $8-12 18.6%, $12-20 16.9%, $20-40 2.0%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 3.8%. Dead tail 79.5%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>ArttHouses</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code>, <code>DigiLabsy</code>, <code>DigitalStudioArtUA</code>, <code>EvaraeVintagePrints</code>, <code>FaithEverywhere</code>, <code>JCSDesignWorks</code>, <code>JollyJoyPrintsStudio</code>, <code>JuniperHousePrints</code></li>
+</ul>
+<h4 id="12-gallery-wall-maximalist-set-bold-colour-maximalist-eclectic-bundle-led-sets-mega">12. gallery wall / maximalist set | bold colour / maximalist / eclectic | bundle-led (sets + mega)<a class="anchor" href="#12-gallery-wall-maximalist-set-bold-colour-maximalist-eclectic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>15 shops, 60 listings, 6,014 units, $129,489 USD revenue proxy.</strong> Yield per listing <strong>$2,158.14</strong>, units per listing 100.23.</li>
+<li><strong>Price:</strong> median $16.84, IQR $13.76-$20.64. Bands: $0-3 1.7%, $3-5 3.3%, $5-8 10.0%, $8-12 6.7%, $12-20 50.0%, $20-40 28.3%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 15%. Dead tail 40%.</li>
+<li><strong>Shops running it:</strong> <code>AprilLaneArt</code>, <code>ColorsAtelierStudio</code>, <code>CultHausStudio</code>, <code>DigiLabsy</code>, <code>FadedMusePrints</code>, <code>GalleryPrintsbySK</code>, <code>HarmonyPixels</code>, <code>HomefyStudio</code>, <code>JollyJoyPrintsStudio</code>, <code>LoveDictionary</code>, <code>LumioraPrints</code>, <code>StylingHerLife</code></li>
+</ul>
+<h4 id="13-unclassified-cottagecore-farmhouse-rustic-bundle-led-sets-mega">13. unclassified | cottagecore / farmhouse / rustic | bundle-led (sets + mega)<a class="anchor" href="#13-unclassified-cottagecore-farmhouse-rustic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>18 shops, 40 listings, 8,056 units, $126,410 USD revenue proxy.</strong> Yield per listing <strong>$3,160.24</strong>, units per listing 201.4.</li>
+<li><strong>Price:</strong> median $11.32, IQR $8.42-$15.68. Bands: $3-5 2.5%, $5-8 20.0%, $8-12 32.5%, $12-20 35.0%, $20-40 10.0%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 5%. Dead tail 52.5%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ArtivaprintShop</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>CedarPrintHouse</code>, <code>FadedMusePrints</code>, <code>GalleryPrintsbySK</code>, <code>JollyJoyPrintsStudio</code>, <code>KoalasPrintableArt</code>, <code>LinoaVintage</code>, <code>LoveDictionary</code>, <code>MoonlineDigitals</code></li>
+</ul>
+<h4 id="14-nursery-baby-room-no-clear-aesthetic-single-print-volume">14. nursery / baby room | no clear aesthetic | single-print volume<a class="anchor" href="#14-nursery-baby-room-no-clear-aesthetic-single-print-volume">#</a></h4>
+<ul>
+<li><strong>38 shops, 1,436 listings, 8,549 units, $122,851 USD revenue proxy.</strong> Yield per listing <strong>$85.55</strong>, units per listing 5.95.</li>
+<li><strong>Price:</strong> median $10.45, IQR $6.69-$10.45. Bands: $3-5 2.2%, $5-8 30.2%, $8-12 45.8%, $12-20 20.8%, $20-40 1.0%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.3%. Dead tail 87.7%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>ArchiveArtCo</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code>, <code>CoolArtByJacob</code>, <code>CultHausStudio</code>, <code>DigiLabsy</code></li>
+</ul>
+<h4 id="15-gallery-wall-maximalist-set-no-clear-aesthetic-bundle-led-sets-mega">15. gallery wall / maximalist set | no clear aesthetic | bundle-led (sets + mega)<a class="anchor" href="#15-gallery-wall-maximalist-set-no-clear-aesthetic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>15 shops, 71 listings, 9,024 units, $119,969 USD revenue proxy.</strong> Yield per listing <strong>$1,689.71</strong>, units per listing 127.1.</li>
+<li><strong>Price:</strong> median $16, IQR $11.47-$18.99. Bands: $3-5 2.8%, $5-8 5.6%, $8-12 23.9%, $12-20 42.3%, $20-40 25.4%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 12.7%. Dead tail 33.8%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>BitterSweetDigitalCo</code>, <code>ColorsAtelierStudio</code>, <code>CultHausStudio</code>, <code>FadedMusePrints</code>, <code>GalleryPrintsbySK</code>, <code>KoalasPrintableArt</code>, <code>LoveDictionary</code>, <code>NorthPrints</code>, <code>SageCottagePrints</code></li>
+</ul>
+<h4 id="16-coastal-beach-preppy-coastal-coastal-grandmother-single-print-volume">16. coastal / beach / preppy | coastal / coastal-grandmother | single-print volume<a class="anchor" href="#16-coastal-beach-preppy-coastal-coastal-grandmother-single-print-volume">#</a></h4>
+<ul>
+<li><strong>47 shops, 1,211 listings, 15,694 units, $113,174 USD revenue proxy.</strong> Yield per listing <strong>$93.45</strong>, units per listing 12.96.</li>
+<li><strong>Price:</strong> median $6.49, IQR $5.11-$9.5. Bands: $0-3 0.6%, $3-5 23.4%, $5-8 41.6%, $8-12 14.0%, $12-20 20.0%, $20-40 0.5%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.7%. Dead tail 76.1%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArchiveArtCo</code>, <code>ArtPrintsbyCoco</code>, <code>ArtivaprintShop</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>BloomJetsetPrints</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code></li>
+</ul>
+<h4 id="17-nursery-baby-room-bold-colour-maximalist-eclectic-bundle-led-sets-mega">17. nursery / baby room | bold colour / maximalist / eclectic | bundle-led (sets + mega)<a class="anchor" href="#17-nursery-baby-room-bold-colour-maximalist-eclectic-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>5 shops, 36 listings, 3,156 units, $94,641 USD revenue proxy.</strong> Yield per listing <strong>$2,628.91</strong>, units per listing 87.67.</li>
+<li><strong>Price:</strong> median $20.64, IQR $12.99-$22.05. Bands: $8-12 16.7%, $12-20 30.6%, $20-40 52.8%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 5.6%. Dead tail 66.7%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>DigiLabsy</code>, <code>LoveDictionary</code>, <code>StylingHerLife</code>, <code>ThePlumAtelier</code></li>
+</ul>
+<h4 id="18-botanical-floral-botanical-floral-study-single-print-volume">18. botanical / floral | botanical / floral study | single-print volume<a class="anchor" href="#18-botanical-floral-botanical-floral-study-single-print-volume">#</a></h4>
+<ul>
+<li><strong>47 shops, 1,908 listings, 15,374 units, $94,533 USD revenue proxy.</strong> Yield per listing <strong>$49.55</strong>, units per listing 8.06.</li>
+<li><strong>Price:</strong> median $5.98, IQR $4.99-$6.6. Bands: $0-3 0.3%, $3-5 26.4%, $5-8 60.6%, $8-12 9.9%, $12-20 2.7%, $20-40 0.1%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0.1%. Dead tail 73.6%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>AprilLaneArt</code>, <code>ArchiveArtCo</code>, <code>ArtPrintsbyCoco</code>, <code>ArtivaprintShop</code>, <code>ArtlyNestPrints</code>, <code>ArttHouses</code>, <code>BitterSweetDigitalCo</code>, <code>CedarPrintHouse</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code></li>
+</ul>
+<h4 id="19-vintage-retro-antique-vintage-antique-oil-painting-bundle-led-sets-mega">19. vintage / retro / antique | vintage / antique oil painting | bundle-led (sets + mega)<a class="anchor" href="#19-vintage-retro-antique-vintage-antique-oil-painting-bundle-led-sets-mega">#</a></h4>
+<ul>
+<li><strong>12 shops, 47 listings, 9,399 units, $93,241 USD revenue proxy.</strong> Yield per listing <strong>$1,983.84</strong>, units per listing 199.98.</li>
+<li><strong>Price:</strong> median $12.07, IQR $7.07-$16.05. Bands: $3-5 2.1%, $5-8 31.9%, $8-12 14.9%, $12-20 48.9%, $20-40 2.1%</li>
+<li><strong>Bundle share: 100% of listings / 100% of units.</strong> Count-anchored titles 6.4%. Dead tail 48.9%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>BitterSweetDigitalCo</code>, <code>ColorsAtelierStudio</code>, <code>FadedMusePrints</code>, <code>HarmonyPixels</code>, <code>LoveDictionary</code>, <code>MusePrintsDownload</code>, <code>NorthPrints</code>, <code>SageCottagePrints</code>, <code>StylingHerLife</code>, <code>TheMossyPrints</code>, <code>thelilysatelier</code></li>
+</ul>
+<h4 id="20-humour-kitchen-bathroom-bold-colour-maximalist-eclectic-single-print-volume">20. humour / kitchen / bathroom | bold colour / maximalist / eclectic | single-print volume<a class="anchor" href="#20-humour-kitchen-bathroom-bold-colour-maximalist-eclectic-single-print-volume">#</a></h4>
+<ul>
+<li><strong>17 shops, 171 listings, 6,126 units, $79,590 USD revenue proxy.</strong> Yield per listing <strong>$465.44</strong>, units per listing 35.82.</li>
+<li><strong>Price:</strong> median $13.36, IQR $7.99-$13.36. Bands: $0-3 0.6%, $3-5 2.9%, $5-8 21.6%, $8-12 8.2%, $12-20 66.7%</li>
+<li><strong>Bundle share: 0% of listings / 0% of units.</strong> Count-anchored titles 0%. Dead tail 29.2%.</li>
+<li><strong>Shops running it:</strong> <code>AlbaLouPrints</code>, <code>ApexVisualsStudio</code>, <code>ChristArtCrafts</code>, <code>ColorsAtelierStudio</code>, <code>CoolArtByJacob</code>, <code>DigiLabsy</code>, <code>KoalasPrintableArt</code>, <code>LoveDictionary</code>, <code>MoonlineDigitals</code>, <code>NorthViviPrints</code>, <code>PrintManifestoStudio</code>, <code>ThatsMyTypePrints</code></li>
+</ul>
+<hr>
+<h2 id="section-4-lane-x-shape-matrix">Section 4 - Lane x shape matrix<a class="anchor" href="#section-4-lane-x-shape-matrix">#</a></h2>
+<p>Where the money actually sits, per lane. <code>Y/L</code> is revenue proxy per listing.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Lane</th>
+<th style="text-align: right;">whole-shop Y/L</th>
+<th style="text-align: right;">bundle-led (sets + mega) Y/L</th>
+<th style="text-align: right;">personalised Y/L</th>
+<th style="text-align: right;">high-ticket Y/L</th>
+<th style="text-align: right;">frame-tv single Y/L</th>
+<th style="text-align: right;">single-print volume Y/L</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>nursery / baby room</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$440.67</td>
+<td style="text-align: right;">$314.71</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$91.28</td>
+</tr>
+<tr>
+<td>coastal / beach / preppy</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$362.08</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$18.31</td>
+<td style="text-align: right;">$91.28</td>
+</tr>
+<tr>
+<td>vintage / retro / antique</td>
+<td style="text-align: right;">$3,074.80</td>
+<td style="text-align: right;">$1,730.58</td>
+<td style="text-align: right;">$75.52</td>
+<td style="text-align: right;">$16.78</td>
+<td style="text-align: right;">$635.09</td>
+<td style="text-align: right;">$147.37</td>
+</tr>
+<tr>
+<td>animal / zoo (kids)</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$48.60</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$83.05</td>
+</tr>
+<tr>
+<td>travel / world map / city</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$10.96</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$153.27</td>
+</tr>
+<tr>
+<td>typography / quote / affirmation</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$76.68</td>
+<td style="text-align: right;">$98.12</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$58.44</td>
+</tr>
+<tr>
+<td>landscape / nature vista</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$103.27</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$96.06</td>
+<td style="text-align: right;">$185.04</td>
+<td style="text-align: right;">$111.77</td>
+</tr>
+<tr>
+<td>sports / fandom / signed</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$74.58</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$23.57</td>
+</tr>
+<tr>
+<td>gallery wall / maximalist set</td>
+<td style="text-align: right;">$19,438.73</td>
+<td style="text-align: right;">$1,787.23</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$474.66</td>
+</tr>
+<tr>
+<td>humour / kitchen / bathroom</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$423.08</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$255.65</td>
+</tr>
+<tr>
+<td>holiday / seasonal (xmas, halloween, easter)</td>
+<td style="text-align: right;">$2,548.64</td>
+<td style="text-align: right;">$159.33</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$208.97</td>
+<td style="text-align: right;">$2.76</td>
+<td style="text-align: right;">$43.12</td>
+</tr>
+<tr>
+<td>pet / animal portrait</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$2,684.16</td>
+<td style="text-align: right;">$236.10</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$8.99</td>
+</tr>
+<tr>
+<td>college / dorm / teen</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$373.38</td>
+<td style="text-align: right;">$569.33</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$94.12</td>
+</tr>
+<tr>
+<td>botanical / floral</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$3,191.50</td>
+<td style="text-align: right;">$67.89</td>
+<td style="text-align: right;">$97.66</td>
+<td style="text-align: right;">$21.59</td>
+<td style="text-align: right;">$59.68</td>
+</tr>
+<tr>
+<td>frame-tv / screen art</td>
+<td style="text-align: right;">$538.87</td>
+<td style="text-align: right;">$259.77</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$26.02</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td>faith / christian</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$301.51</td>
+<td style="text-align: right;">$187.50</td>
+<td style="text-align: right;">$289.74</td>
+<td style="text-align: right;">$97.44</td>
+<td style="text-align: right;">$37.51</td>
+</tr>
+<tr>
+<td>music / album / band</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$91.02</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$82.18</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$256.13</td>
+</tr>
+<tr>
+<td>minimalist / neutral / beige</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$16.81</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$17.30</td>
+</tr>
+<tr>
+<td>abstract / geometric / bauhaus</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$544.12</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$82.21</td>
+</tr>
+<tr>
+<td>y2k / it-girl / leopard / fashion</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$233.97</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$53.67</td>
+</tr>
+<tr>
+<td>svg / apparel / streetwear</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">$62.22</td>
+</tr>
+</tbody>
+</table></div>
+<p>The diagonal that matters: <strong>the best cell in each row is a bundle or a mega-bundle cell</strong>, with two exceptions worth naming - <code>personalised / custom</code> (college/dorm, nursery) and <code>high-ticket / physical-tier</code> (music/album). Both are AOV plays, not volume plays.</p>
+<hr>
+<h2 id="section-5-the-shape-strategies-on-their-own">Section 5 - The shape strategies on their own<a class="anchor" href="#section-5-the-shape-strategies-on-their-own">#</a></h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Shape</th>
+<th style="text-align: right;">Cells</th>
+<th style="text-align: right;">Listings</th>
+<th style="text-align: right;">Units</th>
+<th style="text-align: right;">Rev proxy</th>
+<th style="text-align: right;">Yield/listing</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">Dead tail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>whole-shop / mega bundle</strong></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">28,290</td>
+<td style="text-align: right;">$598,974</td>
+<td style="text-align: right;">$7,304.56</td>
+<td style="text-align: right;">$18.34</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td><strong>bundle-led (sets + mega)</strong></td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">3,848</td>
+<td style="text-align: right;">149,867</td>
+<td style="text-align: right;">$3,086,024</td>
+<td style="text-align: right;">$801.98</td>
+<td style="text-align: right;">$12.11</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td><strong>personalised / custom</strong></td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">708</td>
+<td style="text-align: right;">10,919</td>
+<td style="text-align: right;">$177,930</td>
+<td style="text-align: right;">$251.31</td>
+<td style="text-align: right;">$13.31</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td><strong>high-ticket / physical-tier</strong></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">1,246</td>
+<td style="text-align: right;">1,436</td>
+<td style="text-align: right;">$119,466</td>
+<td style="text-align: right;">$95.88</td>
+<td style="text-align: right;">$56.09</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td><strong>frame-tv single</strong></td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">5,092</td>
+<td style="text-align: right;">49,206</td>
+<td style="text-align: right;">$158,942</td>
+<td style="text-align: right;">$31.21</td>
+<td style="text-align: right;">$5</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td><strong>single-print volume</strong></td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">29,299</td>
+<td style="text-align: right;">410,271</td>
+<td style="text-align: right;">$2,932,324</td>
+<td style="text-align: right;">$100.08</td>
+<td style="text-align: right;">$6.6</td>
+<td style="text-align: right;">-</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="section-6-risk-overlay">Section 6 - Risk overlay<a class="anchor" href="#section-6-risk-overlay">#</a></h2>
+<p>IP-riding is quantified in the case files, not here, but it belongs in a direction list because it changes which directions are worth a project.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Shop</th>
+<th style="text-align: right;">IP % of listings</th>
+<th style="text-align: right;">IP % of units</th>
+<th>Dominant lane</th>
+<th>Terms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PixelscapeArtStudio</code></td>
+<td style="text-align: right;">35.7%</td>
+<td style="text-align: right;"><strong>66.6%</strong></td>
+<td>nursery / kids</td>
+<td>pokemon, toy story, winnie the pooh</td>
+</tr>
+<tr>
+<td><code>EliteSportsStudio</code></td>
+<td style="text-align: right;">44.3%</td>
+<td style="text-align: right;"><strong>45.4%</strong></td>
+<td>sports / fan art</td>
+<td>arsenal, barcelona, bayern, bodybuilder, chelsea, juventus</td>
+</tr>
+<tr>
+<td><code>FunHueStudio</code></td>
+<td style="text-align: right;">51.5%</td>
+<td style="text-align: right;"><strong>38.5%</strong></td>
+<td>sports / fan art</td>
+<td>arsenal, barcelona, bayern, bodybuilder, chelsea, juventus</td>
+</tr>
+<tr>
+<td><code>ArttHouses</code></td>
+<td style="text-align: right;">8.5%</td>
+<td style="text-align: right;"><strong>27.3%</strong></td>
+<td>vintage / retro</td>
+<td>anime, barbie, tolkien</td>
+</tr>
+<tr>
+<td><code>MartyWallArt</code></td>
+<td style="text-align: right;">16.5%</td>
+<td style="text-align: right;"><strong>15.7%</strong></td>
+<td>nursery / kids</td>
+<td>mickey, moana, spiderman, spidey, toy story</td>
+</tr>
+</tbody>
+</table></div>
+<p>The folder's own rule from <code>Young Winners - Corrections (30 Sep 2026)</code>: 27.6% of young-shop rows ride licensed IP against 2.7% in the established cohort, and that velocity is "bought with takedown risk and is not replicable". <strong>Any direction whose examples are IP-led should be rejected as a project, however good the numbers look.</strong></p>
+<p>The sports/fandom, music/album and character-led directions are the ones where this bites hardest.</p>
+<hr>
+<h2 id="section-7-shortlist-which-directions-deserve-a-full-research-project">Section 7 - Shortlist: which directions deserve a full research project<a class="anchor" href="#section-7-shortlist-which-directions-deserve-a-full-research-project">#</a></h2>
+<p>Ranked on four things the data can actually answer: <strong>pool size</strong> (listings and shops to study), <strong>yield per listing</strong> (money in the mechanic), <strong>price headroom</strong> (room to climb the ladder), and <strong>risk</strong> (IP exposure, and whether the shape is already saturated).</p>
+<h3 id="tier-1-big-pool-proven-mechanic-low-risk-start-here">Tier 1 - big pool, proven mechanic, low risk. Start here.<a class="anchor" href="#tier-1-big-pool-proven-mechanic-low-risk-start-here">#</a></h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Direction</th>
+<th>Why it qualifies (all figures from above)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vintage / retro / antique, cottagecore-rustic aesthetic, bundle-led</strong></td>
+<td>largest lane in the corpus (7,333 listings across 59 shops), and the bundle-led cell inside it earns $1,730.58 per listing against $147.37 for singles. Zero IP exposure. The aesthetic question is already the folder's open one (Lumiora: 79% of revenue in one aesthetic).</td>
+</tr>
+<tr>
+<td><strong>Nursery / baby room, bundle-led</strong></td>
+<td>2,969 listings across 49 shops, median $10.45 - the highest median of any big lane - and 45.9% of units already from bundles. LoveDictionary does $15.4k/mo in this lane at 46 months. Room-decor buyers pay for a set.</td>
+</tr>
+<tr>
+<td><strong>Gallery wall / maximalist, bundle-led</strong></td>
+<td>the single best yield cell in the corpus: $2,456.46 per listing on only 344 listings, with 92.4% of units from bundles. Small pool but the highest ceiling - the folder's own Phase 2 pack calls Gallery Wall the largest recent family (8,185 units).</td>
+</tr>
+<tr>
+<td><strong>Botanical / floral, bundle-led</strong></td>
+<td>surprise candidate: $366.88 per listing in the bundle cell, and botanical has the second-highest lane-wide yield ($366.88). Widely treated as filler in wall-art catalogues; the data says it is a real lane.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="tier-2-real-but-with-a-condition-attached">Tier 2 - real but with a condition attached.<a class="anchor" href="#tier-2-real-but-with-a-condition-attached">#</a></h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Direction</th>
+<th>The condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Humour / kitchen / bathroom, single-print volume</strong></td>
+<td>the healthiest <em>catalogue</em> in the corpus on dead tail (60.1% dead, lowest of any big lane) and $268.77 yield with almost no bundles (6.9% of units). Condition: it is a 73-month-old-shop state (Thelittleprintshopx), not a launch state, and it needs a humour voice you can write. Room-specific titles (kitchen, bathroom) are the discovery mechanic.</td>
+</tr>
+<tr>
+<td><strong>Faith / christian</strong></td>
+<td>big catalogue (4,116 listings, 32 shops) but the worst yield of any big lane ($52.68) because it is sold at a $4.99 median. Condition: the folder's own correction note ranks faith <strong>9th of 16</strong> families on current 6-month sales despite it being the largest on catalogue. Evergreen, proven, not where money is moving. Do not lead with it.</td>
+</tr>
+<tr>
+<td><strong>Y2K / it-girl / leopard, bundle-led</strong></td>
+<td>$233.97 per listing with 100% of units from bundles. Condition: <strong>treat PixeluxArt and PosterluxPrint as one operator</strong> - the folder's Phase 2 pack calls them near-clones on the same Stockholm/leopard titles. The apparent pool is half its size.</td>
+</tr>
+<tr>
+<td><strong>College / dorm, personalised</strong></td>
+<td>the best personalised cell: $673.30 per listing. Condition: ThatsMyTypePrints is 42 months old, and the folder's 30-day check rates the personalised shops at 0.32-0.33x their own six-month pace. Highest AOV, fastest decaying.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="tier-3-do-not-build-a-project-on-these">Tier 3 - do not build a project on these.<a class="anchor" href="#tier-3-do-not-build-a-project-on-these">#</a></h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Direction</th>
+<th>Why not</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Frame-TV / screen art, single</strong></td>
+<td>lowest yield of any qualified lane ($37.09 per listing) at a $5.01 median. It is a traffic floor, and the folder puts digital-only at a $5.5-15k/mo ceiling. Keep it as a $5 entry tier feeding a bundle, never as the business.</td>
+</tr>
+<tr>
+<td><strong>Sports / fandom / signed</strong></td>
+<td>real revenue but 66.6% of units in the worst shop carry a licensed term. Zero-IP is the house rule. Read the tag mechanics (name-specific tags are the discovery mechanism) and take none of the subjects.</td>
+</tr>
+<tr>
+<td><strong>Music / album / band</strong></td>
+<td>highest median in the corpus ($106.8 - that is RadialPosters' $106.80 physical prints) and the only true high-ticket hybrid, but 87% dead and it collapses to one shop plus one hero listing. It is an endgame, not a launch, and the catalogue leans on artist names.</td>
+</tr>
+<tr>
+<td><strong>Minimalist / neutral / beige</strong></td>
+<td>$17.19 per listing - the lowest qualified yield in the corpus, 82.8% dead. It is a description, not a direction: it is the absence of a style choice.</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="section-8-the-three-questions-the-corpus-answers">Section 8 - The three questions the corpus answers<a class="anchor" href="#section-8-the-three-questions-the-corpus-answers">#</a></h2>
+<p><strong>Is one aesthetic necessary?</strong> The data says yes and the mechanism is visible: shops with no named aesthetic earn $144.97 per listing, while the named aesthetics that clear a real floor - bold colour / maximalist ($668.55), vintage oil painting ($523.61) and humour / pun (n/a) - all clear it. Naming the style is the cheapest available lever and the corpus is full of shops that skipped it.</p>
+<p><strong>Do bundles work outside the bundle shops?</strong> Yes, and the margin table at the top is the proof. The same lane at the same price earns multiples more per listing when sold as a set. What does not generalise is the <em>specific</em> bundle revenue share the folder recorded for Lumiora (94%) - that is a property of that shop, not a rule.</p>
+<p><strong>How much of a catalogue can be dead?</strong> 47.3% to 87% across the qualified lanes, 57.7% to 87.7% across aesthetics. Treat the dead tail as the cost of running a discoverable catalogue, not as a failure - but note that the lowest dead tails (60.1% humour, 47.3% college) are both catalogue-refresh stories, not luck.</p>
+<hr>
+<h2 id="section-9-method-and-what-this-data-cannot-tell-you">Section 9 - Method, and what this data cannot tell you<a class="anchor" href="#section-9-method-and-what-this-data-cannot-tell-you">#</a></h2>
+<p><strong>Method.</strong></p>
+<ul>
+<li>40,275 listing rows loaded from <code>yw_listings.csv</code> and <code>shops17_listings.csv</code>; 73 shops.</li>
+<li>Every listing classified on three axes independently. Lane and aesthetic markers are counted with an n-gram Counter (unigrams to trigrams) so a marker phrase is a dict lookup, and a cluster only wins if <strong>two different marker phrases fire</strong> or one fires 25+ times. That corroboration rule was added after finding <code>ocean</code> (15 hits) had claimed RadialPosters as a coastal shop and <code>sports</code> had claimed ThePlumAtelier via "sports nursery".</li>
+<li>Shape strategy is derived from the title: whole-shop/mega-bundle marker, then any set/bundle marker, then format, then price band.</li>
+<li>Qualification floors: lane 40 listings AND 3 shops; aesthetic 60 listings; direction 25 listings AND 2 shops.</li>
+<li>Reproduce: <code>python3 build_directions.py</code> then <code>python3 render_directions.py</code>.</li>
+</ul>
+<p><strong>What this data cannot tell you.</strong></p>
+<ul>
+<li><strong>No search volume, no competition.</strong> Nothing here is a demand figure. A lane can have 40,000 units across 59 shops and still be a worse bet than a small one with no competition. The folder's Phase 1 work put demand and competition on separate gates for exactly this reason.</li>
+<li><strong>No time series per direction.</strong> Units are one window per shop (6-month for 56 shops, lifetime for 17). "Trajectory" per direction is not computable from these CSVs; only per-shop velocity vs age is, and that is in the case files.</li>
+<li><strong>No profit.</strong> Every revenue number is gross sticker price before fees, sale discounts and COGS.</li>
+<li><strong>No differentiation between shops in the same direction.</strong> Two shops in the same lane cell here are counted identically. The case files are where that difference lives.</li>
+<li><strong>The keyword taxonomy is finite.</strong> 33,734 listings sit in <code>unclassified</code>. A direction built only from marker phrases will keep missing whatever the taxonomy has not learned.</li>
+</ul>
+<h2 id="files">Files<a class="anchor" href="#files">#</a></h2>
+<ul>
+<li><code>directions_from_data.md</code> - this document</li>
+<li><code>directions.json</code> - full aggregates including unqualified cells and top listings</li>
+<li><code>directions_qualified.json</code> - the tables in this document</li>
+<li><code>../case_files/*.md</code> - 75 per-shop profiles, the detail behind every row here</li>
+<li><code>../build_directions.py</code>, <code>../render_directions.py</code> - regenerate</li>
+</ul>
+      <nav class="pager"><a href="synthesis.html"><div class="d">Previous</div><div class="t">Vault Synthesis</div></a><a class="next" href="lane-faith-vintage.html"><div class="d">Next</div><div class="t">Faith vs Vintage</div></a></nav>
+    </main>
+  </div>
+</div>
+<footer><div class="foot-in">
+  <p><b>Etsy Decision Pack</b> — the complete research base the decision is made from.
+  Built from <code>/home/ubuntu/etsy_phase2/*.csv</code>: 73 shops, 40,275 listing rows.
+  Evidence only: no listings created, no Kittl credits spent, the final call is the boss's.</p>
+  <p>All figures render as inline SVG. No external requests — this site works offline.
+  &middot; <a href="../search.html">Full-text search</a>
+  &middot; <a href="#top">Back to top</a></p>
+</div></footer>
+<script>window.SP_BASE = "../";</script>
+<script src="../assets/search_index.js"></script>
+<script src="../assets/site.js"></script>
+</body>
+</html>
