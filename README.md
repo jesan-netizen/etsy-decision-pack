@@ -22,7 +22,8 @@ method-plan.html        PLAN.md, the brief this pack answers
 doctrine.html           Alfie's Doctrine        (alfie_deep.md)
 trends.html             External Trends         (external_trends.md + trends_charts.json)
 recon.html              Live Etsy Recon         (live_recon.md)
-debate.html             Debate Ranking          (debate_ranking.md + debate_charts.json)
+debate.html             Debate Ranking (v2)     (debate_ranking_v2.md + debate_charts.json)
+debate-ranking-v1.html  Debate Ranking v1      (debate_ranking.md, superseded, for the record)
 corpus/                 The Corpus hub + 9 report pages (yw, shops17, stats,
                         synthesis, lanes, lane-faith-vintage, tables, keywords, method)
 directions/             Hub + 14 direction research projects, each with prev/next nav

@@ -537,7 +537,9 @@ def register_map():
                      ("everbee_keywords.md", "corpus/keywords.html"),
                      ("wave2_brief.md", "corpus/method.html"),
                      ("_tables.md", "corpus/tables.html"),
-                     ("PLAN.md", "method-plan.html")]:
+                     ("PLAN.md", "method-plan.html"),
+                     ("debate_ranking_v2.md", "debate.html"),
+                     ("debate_ranking.md", "debate-ranking-v1.html")]:
         OUTMAP[f"{ROOT}/{src}"] = dst
     for f in sorted((ROOT / "directions").glob("*.md")):
         n = f.name[:2]
@@ -1098,7 +1100,9 @@ def debate_chart_set():
 
 
 def build_debate():
-    md = ROOT / "debate_ranking.md"
+    # v2 supersedes v1; v1 (debate_ranking.md) is kept unaltered for the record
+    # and linked in the note below rather than being the source of the page.
+    md = ROOT / "debate_ranking_v2.md"
     charts, meta = debate_chart_set()
     exists = md.exists()
     if exists:
@@ -1138,7 +1142,11 @@ measured on the population a launch shop is actually in.</p>
 {head}<th style="text-align:right">Weighted</th></tr></thead>
 <tbody>{''.join(rws)}</tbody></table></div>
 <p class="tbl-note">Scores 0–10. Higher is better on every criterion, including
-production cost and IP risk. Click a direction for its full research project.</p>'''
+production cost and IP risk. Click a direction for its full research project.</p>
+<div class="note"><b>Version.</b> This is the <b>v2</b> ranking — the repaired scoring,
+re-derived on a single declared basis after four independent reviews. It supersedes
+<b>v1</b>, which is retained unaltered for the record as
+<a href="debate-ranking-v1.html">debate_ranking.md (v1)</a>.</div>'''
 
         report_page(out="debate.html", title="Debate Ranking — all 14 directions scored",
                     section="debate", depth=0, crumb=[("Overview", "index.html")],
@@ -1162,6 +1170,23 @@ production cost and IP risk. Click a direction for its full research project.</p
             else:
                 t = t.replace("</main>", lead + "</main>")
             out.write_text(t, encoding="utf-8")
+
+        # v1, kept for the record: rendered without the v2 charts so its
+        # figures cannot be mistaken for the current ranking.
+        v1 = ROOT / "debate_ranking.md"
+        if v1.exists():
+            report_page(out="debate-ranking-v1.html",
+                        title="Debate Ranking v1 (superseded — for the record)",
+                        section="debate", depth=0,
+                        crumb=[("Overview", "index.html"),
+                               ("Debate Ranking", "debate.html")],
+                        md_path=v1,
+                        lede="<b>Superseded.</b> This is the original v1 debate ranking, "
+                             "retained unaltered for the record after four independent "
+                             "reviews found three decision-blocking defects. The current "
+                             "ranking is <a href=\"debate.html\">v2</a>.",
+                        pager=pager_html(("Debate Ranking (v2)", "debate.html"),
+                                         ("Overview", "index.html")))
         return True
 
     dirs = sorted((ROOT / "directions").glob("*.md"))
